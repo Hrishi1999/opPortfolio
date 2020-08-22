@@ -1,0 +1,212 @@
+{
+    "data": [
+      {
+        "id": "1",
+        "name": "Cab Security System",
+        "url": " ",
+        "description": "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "Tensorflow",
+            "iconifyClass": "logos-tensorflow"
+          },
+          {
+            "name": "OpenCV",
+            "iconifyClass": "logos-opencv"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Lensinator",
+        "url": " ",
+        "description": "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
+        "languages": [
+          {
+            "name": "JavaScript",
+            "iconifyClass": "logos-java"
+          },
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "Firebase",
+            "iconifyClass": "logos-firebase"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Dashboard Activity",
+        "url": "https://github.com/Hrishi1999/Dashboard.activity",
+        "description": "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Project Pickle",
+        "url": " ",
+        "description": "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
+        "languages": [
+          {
+            "name": "Java",
+            "iconifyClass": "logos-java"
+          },
+          {
+            "name": "Firebase",
+            "iconifyClass": "logos-firebase"
+          },
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Project Health Card",
+        "url": "https://github.com/dsc-iiitdmk/Pick-Parser",
+        "description": "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
+        "languages": [
+            {
+              "name": "JavaScript",
+              "iconifyClass": "logos-java"
+            },
+            {
+              "name": "Python",
+              "iconifyClass": "logos-python"
+            },
+            {
+              "name": "Firebase",
+              "iconifyClass": "logos-firebase"
+            },
+            {
+                "name": "ReactJS",
+                "iconifyClass": "logos-react"
+            },
+            {
+                "name": "MongoDB",
+                "iconifyClass": "logos-mongodb"
+            }
+          ]
+      },
+      {
+        "id": "6",
+        "name": "Food Classifier",
+        "url": " ",
+        "description": "A food classifier app using tflite which classfier over 50 Indian Dishes.",
+        "languages": [
+          {
+            "name": "Flutter",
+            "iconifyClass": "logos-flutter"
+          },
+          {
+            "name": "Dart",
+            "iconifyClass": "logos-dart"
+          },
+          {
+            "name": "Tensorflow",
+            "iconifyClass": "logos-tensorflow"
+          },
+          {
+            "name": "Jupyter Notebook",
+            "iconifyClass": "logos-jupyter"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "name": "Image Clustering",
+        "url": " ",
+        "description": "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "Jupyter Notebook",
+            "iconifyClass": "logos-jupyter"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "Antivirus",
+        "url": " ",
+        "description": "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
+        "languages": [
+          {
+            "name": "Visual Basic",
+            "iconifyClass": "logos-dotnet"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "name": "Sugar on Windows",
+        "url": " ",
+        "description": "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
+        "languages": [
+          {
+            "name": "Visual Basic",
+            "iconifyClass": "logos-dotnet"
+          },
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "name": "Object + Face Detection",
+        "url": " ",
+        "description": "2017 project. Object detection + accurate face detection.",
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "Tensorflow",
+            "iconifyClass": "logos-tensorflow"
+          },
+          {
+            "name": "OpenCV",
+            "iconifyClass": "logos-opencv"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "name": "Image Captioning with Visual Attention",
+        "url": " ",
+        "description": "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "Tensorflow",
+            "iconifyClass": "logos-tensorflow"
+          },
+          {
+            "name": "Jupyter Notebook",
+            "iconifyClass": "logos-jupyter"
+          }
+        ]
+      }
+    ]
+  }
