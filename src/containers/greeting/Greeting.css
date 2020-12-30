@@ -9,6 +9,7 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+  display: block;
 }
 
 .gretting-main {
@@ -86,10 +87,10 @@
   .greeting-main {
     display: block;
   }
-  
-  .portfolio-repo-btn-div{
-    width:100%;
+
+  .portfolio-repo-btn-div {
+    width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
   }
 }
