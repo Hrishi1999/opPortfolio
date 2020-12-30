@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "masterPortfolio",
-  "homepage": "http://hriship.me/",
+  "homepage": "http://hrishi.tech/",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
