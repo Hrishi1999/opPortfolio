@@ -35,7 +35,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using ReactJS",
+        "⚡ Building responsive website front end using ReactJS",
         "⚡ Developing mobile applications using Flutter and native Android",
         "⚡ Creating application backend in Node, Express & Flask",
       ],
@@ -231,7 +231,7 @@ const skills = {
           },
         },
         {
-          skillName: "Python",
+          skillName: "Pandas",
           fontAwesomeClassname: "simple-icons:pandas",
           style: {
             backgroundColor: "transparent",
