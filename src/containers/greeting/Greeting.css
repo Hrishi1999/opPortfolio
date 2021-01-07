@@ -6,7 +6,7 @@
 }
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
+  padding: 60px 10px;
   margin: 0px auto;
   margin-top: 2rem;
   display: block;
@@ -20,12 +20,14 @@
 
 .greeting-main {
   display: flex;
+  text-align: center;
 }
 
 .greeting-main > * {
   flex: 1;
   margin-bottom: 30px;
 }
+
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
@@ -54,6 +56,29 @@
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+}
+
+.button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background: #1672b6;
+  padding: 15px 15px;
+  margin-top: 40px;
+  border-radius: 4px;
+  border-width: 0px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  font-size: 17px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #1672b6;
 }
 
 /* Media Query */
@@ -92,5 +117,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;
   }
 }

@@ -4,16 +4,6 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 
-const onMouseEnter = (event, color) => {
-  const el = event.target;
-  el.style.backgroundColor = color;
-};
-
-const onMouseOut = (event) => {
-  const el = event.target;
-  el.style.backgroundColor = "transparent";
-};
-
 class Header extends Component {
   render() {
     const theme = this.props.theme;
@@ -37,68 +27,55 @@ class Header extends Component {
             <ul className="menu" style={{ backgroundColor: theme.body }}>
               <li>
                 <NavLink
+                  className="homei"
                   to="/home"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text, borderRadius: 5 }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  style={{ borderRadius: 5 }}
                 >
                   Home
                 </NavLink>
               </li>
               <li>
                 <NavLink
+                  className="ec"
                   to="/education"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text, borderRadius: 5 }}
-                  onMouseEnter={(event) =>
-                    onMouseEnter(event, theme.highlight1)
-                  }
-                  onMouseOut={(event) => onMouseOut(event)}
+                  style={{ borderRadius: 5 }}
                 >
                   Education and Certifications
                 </NavLink>
               </li>
               <li>
                 <NavLink
+                  className="xp"
                   to="/experience"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text, borderRadius: 5 }}
-                  onMouseEnter={(event) =>
-                    onMouseEnter(event, theme.highlight2)
-                  }
-                  onMouseOut={(event) => onMouseOut(event)}
+                  style={{ borderRadius: 5 }}
                 >
                   Experience
                 </NavLink>
               </li>
               <li>
                 <NavLink
+                  className="projects"
                   to="/projects"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text, borderRadius: 5 }}
-                  onMouseEnter={(event) =>
-                    onMouseEnter(event, theme.highlight3)
-                  }
-                  onMouseOut={(event) => onMouseOut(event)}
+                  style={{ borderRadius: 5 }}
                 >
                   Projects
                 </NavLink>
               </li>
               <li>
                 <NavLink
+                  className="cr"
                   to="/contact"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text, borderRadius: 5 }}
-                  onMouseEnter={(event) =>
-                    onMouseEnter(event, theme.highlight4)
-                  }
-                  onMouseOut={(event) => onMouseOut(event)}
+                  style={{ borderRadius: 5 }}
                 >
                   Contact and Resume
                 </NavLink>

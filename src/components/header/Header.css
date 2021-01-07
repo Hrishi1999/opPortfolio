@@ -35,7 +35,7 @@
   float: left;
   font-size: 1.5em;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: -15px;
   line-height: normal;
 }
 .header .logo-name {
@@ -122,6 +122,71 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
+}
+
+.homei {
+  margin: 2px 5px 20px;
+  transition: all 0.2s ease-in-out;
+  color: #333;
+}
+
+.homei:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 10px #2ab0ee;
+  background-color: #2ab0ee;
+  color: #ffffff;
+}
+
+.ec {
+  margin: 2px 5px 20px;
+  transition: all 0.2s ease-in-out;
+  color: #333;
+}
+
+.ec:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 10px #eb6559;
+  background-color: #eb6559;
+  color: #ffffff;
+}
+
+.xp {
+  margin: 2px 5px 20px;
+  transition: all 0.2s ease-in-out;
+  color: #333;
+}
+
+.xp:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 10px #f7b908;
+  background-color: #f7b908;
+  color: #ffffff;
+}
+
+.projects {
+  margin: 2px 5px 20px;
+  transition: all 0.2s ease-in-out;
+  color: #333;
+}
+
+.projects:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 10px #e44160;
+  background-color: #e44160;
+  color: #ffffff;
+}
+
+.cr {
+  margin: 2px 5px 20px;
+  transition: all 0.2s ease-in-out;
+  color: #333;
+}
+
+.cr:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 10px #343434;
+  background-color: #343434;
+  color: #ffffff;
 }
 
 /* 48em = 768px */
