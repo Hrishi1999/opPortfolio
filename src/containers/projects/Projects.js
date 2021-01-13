@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Project.css";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import Button from "../../components/button/Button";
 
 export default function Projects() {
   const [repo, _] = useState([]);
@@ -14,7 +13,9 @@ export default function Projects() {
           return <GithubRepoCard repo={v} key={v.node.id} />;
         })}
       </div>
-      <Button text={"More Projects"} className="project-button" href="https://github.com/hrishi1999" newTab={true} />
+      <a className="resume-btn" href="https://github.com/hrishi1999">
+        More Projects (Github)
+      </a>
     </div>
   );
 }

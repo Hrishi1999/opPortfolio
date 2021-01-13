@@ -3,7 +3,7 @@ export const blueTheme = {
   body: "#FFFFFF",
   text: "#343434",
   text2: "#333333",
-  highlight: "#A6E1FA",
+  highlight: "#ECECEC",
   highlight1: "#FFE39A",
   highlight2: "#FAADC1",
   highlight3: "#D2BCFE",

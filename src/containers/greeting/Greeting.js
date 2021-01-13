@@ -4,6 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
+import FeelingProud from "./FeelingProud";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -34,18 +35,12 @@ export default function Greeting(props) {
                 >
                   Contact Me
                 </button>
-                {/* <Button
-									text="Contact Me"
-									newTab={true}
-									href={greeting.mail}
-									theme={theme}
-								/> */}
               </div>
             </div>
           </div>
-          {/* <div className="greeting-image-div">
-						<FeelingProud theme={theme} />
-					</div> */}
+          <div className="greeting-image-div">
+            <FeelingProud theme={theme} />
+          </div>
         </div>
       </div>
     </Fade>
