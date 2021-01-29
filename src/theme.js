@@ -1,5 +1,5 @@
 // theme.js
-export const blueTheme = {
+export const lightTheme = {
   body: "#FFFFFF",
   text: "#343434",
   text2: "#333333",
@@ -16,28 +16,22 @@ export const blueTheme = {
   headerColor: "#0E6BA877",
 };
 
-export const blueTheme2 = {
-  body: "#E6EAF4",
-  text: "#001C55",
-  highlight: "#A6E1FA",
-  dark: "#4A4D60",
-  secondaryText: "#7F8DAA",
-  imageHighlight: "#0E6BA8",
+export const darkTheme = {
+  body: "#1D1D1D",
+  text: "#FFFFFF",
+  text2: "#7E8CA9",
+  highlight: "#ECECEC",
+  highlight1: "#FFE39A",
+  highlight2: "#FAADC1",
+  highlight3: "#D2BCFE",
+  highlight4: "#F7D0BB",
+  dark: "#000000",
+  secondaryText: "#8D8D8D",
+  imageHighlight: "#E3405F",
   compImgHighlight: "#E6E6E6",
-  jacketColor: "#4A4D60",
+  jacketColor: "#E3405F",
   headerColor: "#0E6BA877",
+  svgBg: "#000000",
 };
 
-export const newTheme = {
-  body: "#FFFFFF",
-  text: "#1F1738",
-  highlight: "#CFF0FF",
-  dark: "#00072D",
-  secondaryText: "#7F8DAA",
-  imageHighlight: "#0E6BA8",
-  compImgHighlight: "#E6E6E6",
-  jacketColor: "#ECB02B",
-  headerColor: "#2B2A31",
-};
-
-export const chosenTheme = blueTheme;
+export const chosenTheme = darkTheme;

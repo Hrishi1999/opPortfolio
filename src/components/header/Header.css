@@ -42,6 +42,7 @@
   font-family: "Google Sans Regular";
   font-weight: bold;
   padding: 0 10px;
+  letter-spacing: 3px;
   /* color: #55198b; */
 }
 
@@ -70,7 +71,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #ffffff;
   display: block;
   height: 2px;
   position: relative;
@@ -80,7 +81,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #ffffff;
   content: "";
   display: block;
   height: 100%;
@@ -125,14 +126,14 @@
 }
 
 .homei {
-  margin: 2px 5px 20px;
+  margin: 2px 5px 20px 10px;
   transition: all 0.2s ease-in-out;
-  color: #333;
+  color: #ffffff;
 }
 
 .homei:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 10px #2ab0ee;
+  box-shadow: 0 2px 10px #2ab0ee;
   background-color: #2ab0ee;
   color: #ffffff;
 }
@@ -140,12 +141,12 @@
 .ec {
   margin: 2px 5px 20px;
   transition: all 0.2s ease-in-out;
-  color: #333;
+  color: #ffffff;
 }
 
 .ec:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 10px #eb6559;
+  box-shadow: 0 2px 10px #eb6559;
   background-color: #eb6559;
   color: #ffffff;
 }
@@ -153,12 +154,12 @@
 .xp {
   margin: 2px 5px 20px;
   transition: all 0.2s ease-in-out;
-  color: #333;
+  color: #ffffff;
 }
 
 .xp:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 10px #f7b908;
+  box-shadow: 0 2px 10px #f7b908;
   background-color: #f7b908;
   color: #ffffff;
 }
@@ -166,12 +167,12 @@
 .projects {
   margin: 2px 5px 20px;
   transition: all 0.2s ease-in-out;
-  color: #333;
+  color: #ffffff;
 }
 
 .projects:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 10px #e44160;
+  box-shadow: 0 2px 10px #e44160;
   background-color: #e44160;
   color: #ffffff;
 }
@@ -179,12 +180,12 @@
 .cr {
   margin: 2px 5px 20px;
   transition: all 0.2s ease-in-out;
-  color: #333;
+  color: #ffffff;
 }
 
 .cr:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 10px #343434;
+  box-shadow: 0 1px 10px #343434;
   background-color: #343434;
   color: #ffffff;
 }
