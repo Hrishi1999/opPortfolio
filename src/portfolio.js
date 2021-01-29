@@ -9,7 +9,7 @@ const settings = {
 const greeting = {
   title: "Hello.",
   title2: "Hrishi",
-  logo_name: "Hrishi Patel",
+  logo_name: "hrishi.p()",
   nickname: "hrishi1999 / picleric",
   subTitle:
     "I'm Hrishi. Full Stack Developer, Machine Learning Enthusiast. Always learning.",
