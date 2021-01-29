@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "masterPortfolio",
+  "name": "Portfolio",
   "homepage": "http://hrishi.tech/",
   "version": "0.1.0",
   "scripts": {
@@ -19,6 +19,7 @@
     "chart.js": "^2.9.3",
     "fs": "0.0.1-security",
     "gh-pages": "^2.1.1",
+    "glamor": "^2.20.40",
     "graphql": "^14.5.8",
     "node-fetch": "^2.6.0",
     "node-sass": "^4.14.1",

@@ -53,7 +53,7 @@ class DegreeCard extends Component {
                 style={{ textDecoration: "none", textAlign: "center" }}
               >
                 <p
-                  className="button"
+                  className="button-visit"
                   style={{
                     marginRight: "23px",
                     textDecoration: "none",

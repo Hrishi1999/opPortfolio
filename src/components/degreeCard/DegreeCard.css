@@ -8,6 +8,7 @@
 .card-title {
   font-family: "Google Sans Medium";
   font-size: 23px;
+  margin-left: 10px;
 }
 
 .card-subtitle {
@@ -15,6 +16,7 @@
   font-size: 18px;
   margin-top: 7px;
   margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .card-img {
@@ -100,6 +102,29 @@
   padding: 0px;
   font-family: "Google Sans Regular";
   /* color: #000000; */
+}
+
+.button-visit {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background: #234281;
+  padding: 15px 15px;
+  margin-top: 25px;
+  border-radius: 4px;
+  border-width: 0px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  font-size: 17px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.button-visit:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #224181;
 }
 
 @media (max-width: 1380px) {
