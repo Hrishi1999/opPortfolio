@@ -247,6 +247,7 @@ const skills = {
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Experience hosting and managing websites",
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Experience with Continuous Integration",
       ],
       softwareSkills: [
         {
@@ -261,6 +262,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Netlify",
+          fontAwesomeClassname: "simple-icons:netlify",
+          style: {
+            color: "#38AFBB",
           },
         },
         {
@@ -317,6 +325,24 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Convolutional Neural Networks",
+      subtitle: "Andrew Ng",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
+      alt_name: "deeplearning.ai",
+      color_code: "#F6B808",
+    },
+    {
+      title: "Structuring Machine Learning Projects",
+      subtitle: "Andrew Ng",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
+      alt_name: "deeplearning.ai",
+      color_code: "#E2405F",
+    },
+    {
       title: "Machine Learning",
       subtitle: "Andrew Ng",
       logo_path: "stanford_logo.png",
@@ -332,7 +358,7 @@ const certifications = {
       certificate_link:
         "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
       alt_name: "Google",
-      color_code: "#00000099",
+      color_code: "#7A7A7A",
     },
     {
       title: "Improving Deep Neural Networks",

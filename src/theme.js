@@ -8,12 +8,13 @@ export const lightTheme = {
   highlight2: "#FAADC1",
   highlight3: "#D2BCFE",
   highlight4: "#F7D0BB",
-  dark: "#00072D",
+  dark: "#000000",
   secondaryText: "#7F8DAA",
-  imageHighlight: "#0E6BA8",
+  imageHighlight: "#E3405F",
   compImgHighlight: "#E6E6E6",
-  jacketColor: "#ECB02B",
+  jacketColor: "#E3405F",
   headerColor: "#0E6BA877",
+  svgBg: "#000000",
 };
 
 export const darkTheme = {
