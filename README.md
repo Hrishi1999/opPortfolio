@@ -6,23 +6,23 @@
 
 # Sections
 
-+ Home
-+ Education and Certificates
-+ Experience
-+ Projects 
-+ Contact and Resume
+- Home
+- Education and Certificates
+- Experience
+- Projects
+- Contact and Resume
 
 # How To Use
 
-+ Clone this repository
-+ Run `npm i`
-+ Check it out using `npm start`
+- Clone this repository
+- Run `npm i`
+- Check it out using `npm start`
 
 # How Do I Customize
 
-+ Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
-+ In `src/portfolio.js` you can add your personal portfolio details.
-
+- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
+- In `src/portfolio.js` you can add your personal portfolio details.
+- Make sure you replace Google Analytics tracking ID in `index.html` and change other properties like name, URL etc.
 
 # References
 
