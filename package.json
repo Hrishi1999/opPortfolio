@@ -2,7 +2,7 @@
   "private": true,
   "name": "Portfolio",
   "homepage": "http://hrishi.tech/",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
