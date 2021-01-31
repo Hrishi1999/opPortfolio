@@ -11,8 +11,9 @@ const greeting = {
   title2: "Hrishi",
   logo_name: "hrishi.p()",
   nickname: "hrishi1999 / picleric",
+  full_name: "Hrishi Patel",
   subTitle:
-    "I'm Hrishi. Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
   resumeLink:
     "https://drive.google.com/file/d/1Bfj3NMVm49SuHHlUzWWfLGU_XRxqBCkE/view?usp=sharing",
   mail: "mailto:hrishipatel99@gmail.com",
