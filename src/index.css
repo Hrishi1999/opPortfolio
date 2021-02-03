@@ -54,6 +54,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #292a2d;
+}
+::-webkit-scrollbar-thumb {
+  background: #636363;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 /* Media Query */
 @media (max-width: 1380px) {
   html,
