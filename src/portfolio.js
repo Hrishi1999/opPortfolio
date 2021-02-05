@@ -15,7 +15,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1Bfj3NMVm49SuHHlUzWWfLGU_XRxqBCkE/view?usp=sharing",
+    "https://drive.google.com/file/d/1cpPGf6zXzIMG_-6n4o2xNEe22nBVMUPC/view?usp=sharing",
   mail: "mailto:hrishipatel99@gmail.com",
 };
 
@@ -236,7 +236,7 @@ const skills = {
           fontAwesomeClassname: "simple-icons:pandas",
           style: {
             backgroundColor: "transparent",
-            color: "#000000",
+            color: "#6E6E6E",
           },
         },
       ],
