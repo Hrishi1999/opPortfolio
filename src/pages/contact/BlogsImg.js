@@ -78,35 +78,35 @@ export default class BlogsImg extends Component {
           y="271.21385"
           width="94.695"
           height="34.01665"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <rect
           x="305.92003"
           y="330.97283"
           width="348.44084"
           height="9.19369"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <rect
           x="305.92003"
           y="354.87642"
           width="348.44084"
           height="9.19369"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <rect
           x="305.92003"
           y="378.78002"
           width="348.44084"
           height="9.19369"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <rect
           x="305.92003"
           y="402.68361"
           width="348.44084"
           height="9.19369"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <rect
           x="86.42068"
@@ -252,12 +252,12 @@ export default class BlogsImg extends Component {
         <path
           d="M1036.99367,757.29327c0-52.26489,36.18322-94.557,80.89874-94.557"
           transform="translate(-69.5 -78.57247)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M990.76582,668.47219c0,49.09446,20.67613,88.82108,46.22785,88.82108"
           transform="translate(-69.5 -78.57247)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M1036.99367,757.29327c0-66.78291,41.82217-120.82279,93.50633-120.82279"

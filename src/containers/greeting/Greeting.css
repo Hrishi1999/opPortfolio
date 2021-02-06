@@ -56,7 +56,6 @@
 .button {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
-  background: #fd1056;
   padding: 15px 15px;
   margin-top: 25px;
   border-radius: 4px;
@@ -69,11 +68,6 @@
   font-size: 17px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-}
-
-.button:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #fd1056;
 }
 
 /* Media Query */

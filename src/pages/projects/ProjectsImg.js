@@ -33,20 +33,20 @@ export default class ProjectsImg extends Component {
           cy="664.8"
           rx="192"
           ry="43"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.1"
         />
         <g opacity="0.1">
           <path
             d="M673.12,122.89c0,156.1,97.93,282.41,219,282.41"
             transform="translate(-48.1 -96.1)"
-            fill={theme.imageHighlight}
+            fill={theme.accentColor}
           />
         </g>
         <path
           d="M675.52,226.13c-70.75.54-138.73-15.45-203.73-33.27S342.32,155,273,146.82c-44.62-5.27-95.4-4.44-130.47,16-33.75,19.66-43.74,51.89-48.67,81.63-3.71,22.38-5.52,45.86,7.54,66.22C110.42,324.8,126,336.4,137,349.86c38.26,46.83,14.53,107.1-23.41,155.51-17.79,22.71-38.6,44.5-52.1,68.48s-19.18,51.1-5.79,74.6c13.28,23.28,43.54,40,76.09,51.45C197.92,723,275,727.6,350.05,729.06c166.14,3.25,332.71-6.63,498.83-16.5,61.47-3.66,123.22-7.34,183.48-17.15,33.46-5.45,67.92-13.44,91.74-30.61,30.25-21.8,36.68-57.11,15-82.33-36.37-42.29-133-49.68-159-95.53-14.31-25.24-1.57-54.37,17-78.92,39.94-52.64,108.35-100,110-158.62,1.1-40.25-34-79.28-86.68-96.43-55.25-18-130.79-12.79-169.85,21.61C810.34,210,738,225.66,675.52,226.13Z"
           transform="translate(-48.1 -96.1)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.1"
         />
         <path
@@ -68,7 +68,7 @@ export default class ProjectsImg extends Component {
           width="70.01"
           height="33.22"
           rx="8.57"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -77,7 +77,7 @@ export default class ProjectsImg extends Component {
           width="70.01"
           height="33.22"
           rx="8.57"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <polyline
@@ -100,7 +100,7 @@ export default class ProjectsImg extends Component {
           width="102.68"
           height="48.73"
           rx="8.57"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <line
           x1="492.29"
@@ -123,7 +123,7 @@ export default class ProjectsImg extends Component {
           width="70.01"
           height="33.22"
           rx="8.57"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -132,7 +132,7 @@ export default class ProjectsImg extends Component {
           width="70.01"
           height="33.22"
           rx="8.57"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -141,7 +141,7 @@ export default class ProjectsImg extends Component {
           width="70.01"
           height="33.22"
           rx="8.57"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <line
@@ -172,7 +172,7 @@ export default class ProjectsImg extends Component {
           width="70.01"
           height="33.22"
           rx="8.57"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -182,7 +182,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(1210.51 -631.25) rotate(90)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -192,7 +192,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(377.41 1272.15) rotate(-90)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -201,7 +201,7 @@ export default class ProjectsImg extends Component {
           width="70.01"
           height="33.22"
           rx="8.57"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -211,7 +211,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(972.95 1114.65) rotate(-180)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -221,7 +221,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(1174.83 1114.65) rotate(-180)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <line
@@ -267,7 +267,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(1134.8 -447.65) rotate(90)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -277,7 +277,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(1200.94 -512.04) rotate(90)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -287,7 +287,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(636.73 -57.48) rotate(90)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -297,7 +297,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(-196.37 698.37) rotate(-90)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <line
@@ -343,7 +343,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(820.34 -133.18) rotate(90)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <rect
@@ -353,7 +353,7 @@ export default class ProjectsImg extends Component {
           height="33.22"
           rx="8.57"
           transform="translate(755.94 -67.05) rotate(90)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.2"
         />
         <path
@@ -364,12 +364,12 @@ export default class ProjectsImg extends Component {
         <path
           d="M226.59,688.89c0-50.81,35.18-91.92,78.65-91.92"
           transform="translate(-48.1 -96.1)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M181.66,602.55c0,47.72,20.1,86.34,44.93,86.34"
           transform="translate(-48.1 -96.1)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M226.59,688.89c0-64.92,40.66-117.45,90.9-117.45"
@@ -381,7 +381,7 @@ export default class ProjectsImg extends Component {
           cy="607.19"
           rx="17.52"
           ry="2.96"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
           opacity="0.1"
         />
         <path
@@ -499,7 +499,7 @@ export default class ProjectsImg extends Component {
           width="68.78"
           height="51.83"
           transform="translate(345.09 -391.72) rotate(27.04)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <circle cx="730.3" cy="557" r="1.13" fill="#e6e8ec" />
         <circle cx="796.61" cy="590.97" r="1.86" fill="#e6e8ec" />

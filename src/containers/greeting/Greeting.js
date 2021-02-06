@@ -5,10 +5,18 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
+import { style } from "glamor";
 
 export default function Greeting(props) {
   const theme = props.theme;
   const history = useHistory();
+
+  const styles = style({
+    backgroundColor: `${theme.contactButtonColor}`,
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.contactButtonColor}`,
+    },
+  });
 
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -22,7 +30,7 @@ export default function Greeting(props) {
                 style={{ color: theme.secondaryText }}
               >
                 <span>I'm </span>
-                <span style={{ color: theme.jacketColor }}>
+                <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
                 </span>
                 {greeting.subTitle}
@@ -30,6 +38,7 @@ export default function Greeting(props) {
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <button
+                  {...styles}
                   className="button"
                   onClick={() => {
                     history.push("/contact");

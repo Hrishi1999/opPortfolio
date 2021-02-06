@@ -76,7 +76,7 @@ export default class CloudInfraImg extends Component {
         <path
           d="M593.19,745.08s-86.63-.34-116.09-.34-116.09.34-116.09.34V585.74A116.09,116.09,0,0,1,477.09,469.65h0A116.09,116.09,0,0,1,593.19,585.74Z"
           transform="translate(-167.6 -120.78)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M298.5,290.83h22a16.76,16.76,0,0,1,16.76,16.76v46.33a27.76,27.76,0,0,1-27.76,27.76h0a27.76,27.76,0,0,1-27.76-27.76V307.59A16.76,16.76,0,0,1,298.5,290.83Z"
@@ -109,12 +109,12 @@ export default class CloudInfraImg extends Component {
         <path
           d="M504.39,473.27S651.23,450.4,620.95,677.54l-17.66,65.11-50.48-2s32.81-75.71,12.62-126.19S504.39,473.27,504.39,473.27Z"
           transform="translate(-167.6 -120.78)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M449.8,473.27S303,450.4,333.24,677.54l17.66,65.11,50.48-2s-32.81-75.71-12.62-126.19S449.8,473.27,449.8,473.27Z"
           transform="translate(-167.6 -120.78)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M386.24,573.36s-10.1,78,7.57,100.71"

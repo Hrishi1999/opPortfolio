@@ -39,28 +39,22 @@ export default class DataScienceImg extends Component {
         <path
           d="M286,77.09967a94.01123,94.01123,0,0,0-44.968,176.56414L286,171.09967Z"
           transform="translate(-40 -34.59967)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M352.468,237.56768,286,171.09967l-44.968,82.56414a94.04908,94.04908,0,0,0,111.436-16.09613Z"
           transform="translate(-40 -34.59967)"
-          fill={theme.jacketColor}
+          fill="#FE9800"
         />
         <rect
           x="44"
           y="216.5"
           width="18"
           height="18"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <rect x="70" y="216.5" width="18" height="18" fill={theme.text} />
-        <rect
-          x="96"
-          y="216.5"
-          width="18"
-          height="18"
-          fill={theme.jacketColor}
-        />
+        <rect x="96" y="216.5" width="18" height="18" fill="#FE9800" />
         <rect x="355" y="220.5" width="74" height="3" fill={theme.text} />
         <rect x="355" y="229.5" width="74" height="3" fill={theme.text} />
         <rect x="355" y="238.5" width="74" height="3" fill={theme.text} />
@@ -80,7 +74,7 @@ export default class DataScienceImg extends Component {
           y="621.81429"
           width="13.37143"
           height="13.37143"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <rect
           x="194.31429"
@@ -94,7 +88,7 @@ export default class DataScienceImg extends Component {
           y="621.81429"
           width="13.37143"
           height="13.37143"
-          fill={theme.jacketColor}
+          fill="#FE9800"
         />
         <rect
           x="325"
@@ -125,12 +119,12 @@ export default class DataScienceImg extends Component {
         <path
           d="M388.2254,613.32507l-15.55633-15.55634a65.98344,65.98344,0,0,1-86.6,5.87165L272.7533,621.16113a87.99775,87.99775,0,0,0,115.4721-7.83606Z"
           transform="translate(-40 -34.59967)"
-          fill={theme.jacketColor}
+          fill="#FE9800"
         />
         <path
           d="M260,551.09967a66,66,0,0,1,66-66v-22a87.99914,87.99914,0,0,0-53.2467,158.06146l13.31579-17.52075A65.885,65.885,0,0,1,260,551.09967Z"
           transform="translate(-40 -34.59967)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M971.62443,175.593s-4.08028,30.31061,6.41186,33.808,7.57765,30.31062,7.57765,30.31062l-31.47641,23.89875-27.979,2.33159-6.99476-36.13958L923.244,220.476s15.73821-18.65268,4.66318-37.88826S971.62443,175.593,971.62443,175.593Z"
@@ -184,7 +178,7 @@ export default class DataScienceImg extends Component {
         <path
           d="M980.95077,226.305s-19.81848,20.98427-34.39089,17.48689-22.15006-28.56192-22.15006-28.56192l-26.23034-4.66318s-18.65269,82.7713-18.65269,90.93185,18.65269,96.17791,18.65269,111.91611-15.15531,25.06455,8.16055,24.48165,12.24082-8.16055,46.04882-8.74344,39.05406,6.99475,46.04881-5.24607a97.52308,97.52308,0,0,1,17.4869-21.56717l-12.24083-43.13434L1001.935,237.38s-14.94433-29.14482-21.75313-26.81324C980.18191,210.56676,983.86525,223.39049,980.95077,226.305Z"
           transform="translate(-40 -34.59967)"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <path
           d="M973.7711,205.41135s31.07842,3.40672,39.82187,9.81859,33.2251,11.075,32.6422,15.7382-28.56192,71.11336-28.56192,71.11336-12.82373,52.46068-1.74869,64.70151,52.46067,145.72411,45.46592,156.79914-29.14482-33.808-29.14482-33.808-29.72772-96.17791-46.04882-112.499S968.71,272.93668,968.71,268.85641,973.7711,205.41135,973.7711,205.41135Z"
@@ -229,27 +223,21 @@ export default class DataScienceImg extends Component {
           stroke-miterlimit="10"
           stroke-width="2"
         />
-        <rect
-          x="567"
-          y="362.5"
-          width="45"
-          height="72"
-          fill={theme.jacketColor}
-        />
+        <rect x="567" y="362.5" width="45" height="72" fill="#FE9800" />
         <rect x="632" y="313.5" width="45" height="121" fill={theme.text} />
         <rect
           x="697"
           y="256.5"
           width="45"
           height="178"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <rect
           x="553"
           y="451.81429"
           width="13.37143"
           height="13.37143"
-          fill={theme.imageHighlight}
+          fill={theme.accentColor}
         />
         <rect
           x="572.31429"
@@ -263,7 +251,7 @@ export default class DataScienceImg extends Component {
           y="451.81429"
           width="13.37143"
           height="13.37143"
-          fill={theme.jacketColor}
+          fill="#FE9800"
         />
         <rect
           x="703"
