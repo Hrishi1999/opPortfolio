@@ -33,8 +33,14 @@
 }
 
 .contact-heading-img-div {
-  align-items: center;
-  justify-content: center;
+  margin-left: 13%;
+  margin-bottom: 8%;
+  margin-top: 4%;
+}
+
+.profile-pic {
+  box-shadow: 0 5px 15px #353535;
+  border-radius: 4px;
 }
 
 .blog-heading-img-div {
@@ -169,6 +175,11 @@
   .blog-heading-text {
     font-size: 30px;
     margin-top: 0px;
+  }
+
+  .contact-heading-img-div {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .address-heading-text {

@@ -18,7 +18,7 @@ export default class DataScienceImg extends Component {
           cy="811.05902"
           rx="144.42094"
           ry="18.74165"
-          fill={theme.text}
+          fill="#1A1A1A"
         />
         <rect y="27.5" width="436" height="272" fill="#292A2D" />
         <rect
@@ -27,7 +27,7 @@ export default class DataScienceImg extends Component {
           width="436"
           height="272"
           fill="none"
-          stroke={theme.text}
+          stroke="#3F3D56"
           stroke-miterlimit="10"
           stroke-width="2"
         />
@@ -65,7 +65,7 @@ export default class DataScienceImg extends Component {
           width="248"
           height="272"
           fill="none"
-          stroke={theme.text}
+          stroke="#3F3D56"
           stroke-miterlimit="10"
           stroke-width="2"
         />
@@ -212,14 +212,14 @@ export default class DataScienceImg extends Component {
           width="248"
           height="272"
           fill="none"
-          stroke={theme.text}
+          stroke="#3F3D56"
           stroke-miterlimit="10"
           stroke-width="2"
         />
         <polyline
           points="556 227.5 556 435.5 757 435.5"
           fill="none"
-          stroke={theme.text}
+          stroke="#3F3D56"
           stroke-miterlimit="10"
           stroke-width="2"
         />
