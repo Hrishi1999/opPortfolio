@@ -6,7 +6,7 @@
 }
 
 .greet-main {
-  width: 90%;
+  max-width: 1370px;
   padding: 10px 10px;
   margin: 0px auto;
   margin-top: 2rem;
@@ -75,8 +75,13 @@
   .greeting-text {
     font-size: 50px;
   }
+
   .greeting-text-p {
     font-size: 20px;
+  }
+
+  .greet-main {
+    max-width: 900px;
   }
 }
 @media (max-width: 768px) {

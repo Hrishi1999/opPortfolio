@@ -15,10 +15,10 @@
 
 .skills-text-div {
   margin-left: 50px;
+  margin-top: 3%;
   padding-top: 80px;
   font-family: "Google Sans Regular";
 }
-
 
 .skills-main-div > * {
   flex: 1;

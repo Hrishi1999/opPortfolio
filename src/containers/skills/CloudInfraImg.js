@@ -9,8 +9,8 @@ export default class CloudInfraImg extends Component {
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
         // xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="864.81"
-        height="600.45"
+        width="100%"
+        height="100%"
         viewBox="0 0 864.81 658.45"
       >
         <defs>
