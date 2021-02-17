@@ -92,6 +92,20 @@ const skills = {
           },
         },
         {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "#DE33A6",
+          },
+        },
+        {
           skillName: "Android",
           fontAwesomeClassname: "simple-icons:android",
           style: {
