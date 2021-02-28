@@ -340,17 +340,35 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Convolutional Neural Networks",
-      subtitle: "Andrew Ng",
+      title: "Deep Learning Specialization",
+      subtitle: "deeplearning.ai",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
+        "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
+      alt_name: "deeplearning.ai",
+      color_code: "#47A048",
+    },
+    {
+      title: "Sequence Models",
+      subtitle: "deeplearning.ai",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
       alt_name: "deeplearning.ai",
       color_code: "#F6B808",
     },
     {
+      title: "Convolutional Neural Networks",
+      subtitle: "deeplearning.ai",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
+      alt_name: "deeplearning.ai",
+      color_code: "#2AAFED",
+    },
+    {
       title: "Structuring Machine Learning Projects",
-      subtitle: "Andrew Ng",
+      subtitle: "deeplearning.ai",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
@@ -359,7 +377,7 @@ const certifications = {
     },
     {
       title: "Machine Learning",
-      subtitle: "Andrew Ng",
+      subtitle: "deeplearning.ai",
       logo_path: "stanford_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
@@ -368,7 +386,7 @@ const certifications = {
     },
     {
       title: "Neural Networks and Deep Learning",
-      subtitle: "Andrew Ng",
+      subtitle: "deeplearning.ai",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
@@ -377,7 +395,7 @@ const certifications = {
     },
     {
       title: "Improving Deep Neural Networks",
-      subtitle: "Andrew Ng",
+      subtitle: "deeplearning.ai",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
