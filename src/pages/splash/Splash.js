@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "./Splash.css";
 import { Redirect } from "react-router-dom";
 
@@ -18,29 +18,15 @@ function AnimatedSplash(props) {
   );
 }
 
-class Splash extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      redirect: false,
-    };
-  }
+function Splash(props) {
+  const [redirect, setRedirect] = useState(false);
+  setTimeout(() => setRedirect(true), 2000);
 
-  componentDidMount() {
-    this.id = setTimeout(() => this.setState({ redirect: true }), 2000);
-  }
-
-  componentWillMount() {
-    clearTimeout(this.id);
-  }
-
-  render() {
-    return this.state.redirect ? (
-      <Redirect to="/home" />
-    ) : (
-      <AnimatedSplash theme={this.props.theme} />
-    );
-  }
+  return redirect ? (
+    <Redirect to="/home" />
+  ) : (
+    <AnimatedSplash theme={props.theme} />
+  );
 }
 
 export default Splash;
