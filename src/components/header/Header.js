@@ -7,26 +7,29 @@ import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
 
-const styles = style({
-  cursor: "pointer",
-  height: "45px",
-  width: "45px",
-  marginRight: "10px",
-  paddingTop: "5px",
-  borderRadius: "50%",
-  border: "none",
-  alignItems: "center",
-  justifyContent: "center",
-  backgroundColor: "#CD5373",
-  outline: "none",
-  color: `${(props) => props.theme.text}`,
-  ":hover": {
-    boxShadow: `0 3px 11px #CD5373`,
-  },
-});
-
 function Header(props) {
   const theme = props.theme;
+
+  const styles = style({
+    cursor: "pointer",
+    height: "45px",
+    width: "45px",
+    marginRight: "10px",
+    paddingTop: "5px",
+    borderRadius: "50%",
+    border: "none",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: props.theme.name === "light" ? "#83C8E4" : "#292C3F",
+    outline: "none",
+    transition: "all 0.2s ease-in-out",
+    ":hover": {
+      boxShadow: `0 3px 8px ${
+        props.theme.name === "light" ? "#F7D774" : "#A7A7A7"
+      }`,
+    },
+  });
+
   const link = settings.isSplash ? "/splash" : "home";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
@@ -35,19 +38,25 @@ function Header(props) {
     if (currTheme === "light") {
       props.setTheme("dark");
       setCurrTheme("dark");
-      console.log("dark");
     } else {
       props.setTheme("light");
       setCurrTheme("light");
-      console.log("light");
     }
   }
 
   const icon =
-    props.theme.name === "light" ? (
-      <HiMoon size={20} color={"#FFFFFF"} />
+    props.theme.name === "dark" ? (
+      <HiMoon
+        strokeWidth={1}
+        size={20}
+        color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
+      />
     ) : (
-      <CgSun size={20} color={"#FFFFFF"} />
+      <CgSun
+        strokeWidth={1}
+        size={20}
+        color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
+      />
     );
 
   return (
