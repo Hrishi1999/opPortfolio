@@ -3,26 +3,27 @@ import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
-import styled from "styled-components";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
+import { style } from "glamor";
 
-const Toggle = styled.button`
-  cursor: pointer;
-  height: 45px;
-  width: 45px;
-  padding-top: 5px;
-  border-radius: 50%;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  background-color: ${(props) => props.theme.accentColor};
-  color: ${(props) => props.theme.text};
-  &:focus {
-    outline: none;
-  }
-  transition: all 0.5s ease;
-`;
+const styles = style({
+  cursor: "pointer",
+  height: "45px",
+  width: "45px",
+  marginRight: "10px",
+  paddingTop: "5px",
+  borderRadius: "50%",
+  border: "none",
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "#CD5373",
+  outline: "none",
+  color: `${(props) => props.theme.text}`,
+  ":hover": {
+    boxShadow: `0 3px 11px #CD5373`,
+  },
+});
 
 function Header(props) {
   const theme = props.theme;
@@ -120,7 +121,9 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
-            <Toggle onClick={changeTheme}>{icon}</Toggle>
+            <button {...styles} onClick={changeTheme}>
+              {icon}
+            </button>
           </ul>
         </header>
       </div>
