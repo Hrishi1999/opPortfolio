@@ -27,8 +27,8 @@ export default function DataScienceImg(props) {
         height="272"
         fill="none"
         stroke="#3F3D56"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <path
         d="M352.468,237.56768A94,94,0,0,0,286,77.09967v94Z"
@@ -59,8 +59,8 @@ export default function DataScienceImg(props) {
         height="272"
         fill="none"
         stroke="#3F3D56"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <rect
         x="175"
@@ -206,15 +206,15 @@ export default function DataScienceImg(props) {
         height="272"
         fill="none"
         stroke="#3F3D56"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <polyline
         points="556 227.5 556 435.5 757 435.5"
         fill="none"
         stroke="#3F3D56"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <rect x="567" y="362.5" width="45" height="72" fill="#FE9800" />
       <rect x="632" y="313.5" width="45" height="121" fill={theme.text} />

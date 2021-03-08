@@ -405,7 +405,7 @@ function FeelingProud(props) {
             />
           </g>
           <radialgradient
-            gradientunits="userSpaceOnUse"
+            gradientUnits="userSpaceOnUse"
             r="17.2316"
             cy="239.6875"
             cx="121.6441"

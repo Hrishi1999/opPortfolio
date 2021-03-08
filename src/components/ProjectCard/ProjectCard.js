@@ -16,7 +16,7 @@ export default function ProjectCard({ repo, theme }) {
           className="repo-card-div"
           key={repo.id}
           onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: "#292A2D" }}
+          style={{ backgroundColor: theme.projectCard }}
         >
           <div className="repo-name-div">
             <svg

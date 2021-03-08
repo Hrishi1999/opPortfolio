@@ -1,18 +1,58 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
+import styled from "styled-components";
+import { CgSun } from "react-icons/cg/";
+import { HiMoon } from "react-icons/hi";
+
+const Toggle = styled.button`
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  padding-top: 5px;
+  border-radius: 50%;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  background-color: ${(props) => props.theme.accentColor};
+  color: ${(props) => props.theme.text};
+  &:focus {
+    outline: none;
+  }
+  transition: all 0.5s ease;
+`;
 
 function Header(props) {
   const theme = props.theme;
-  console.log(theme);
   const link = settings.isSplash ? "/splash" : "home";
+
+  const [currTheme, setCurrTheme] = useState(props.theme);
+
+  function changeTheme() {
+    if (currTheme === "light") {
+      props.setTheme("dark");
+      setCurrTheme("dark");
+      console.log("dark");
+    } else {
+      props.setTheme("light");
+      setCurrTheme("light");
+      console.log("light");
+    }
+  }
+
+  const icon =
+    props.theme.name === "light" ? (
+      <HiMoon size={20} color={"#FFFFFF"} />
+    ) : (
+      <CgSun size={20} color={"#FFFFFF"} />
+    );
 
   return (
     <Fade top duration={1000} distance="20px">
       <div>
-        <header className="header">
+        <header className="header" setTheme={props.setTheme}>
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
@@ -80,6 +120,7 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
+            <Toggle onClick={changeTheme}>{icon}</Toggle>
           </ul>
         </header>
       </div>

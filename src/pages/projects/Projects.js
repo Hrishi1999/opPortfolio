@@ -12,7 +12,7 @@ function Projects(props) {
   const theme = props.theme;
   return (
     <div className="projects-main">
-      <Header theme={theme} />
+      <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">

@@ -11,7 +11,7 @@ function Education(props) {
   const theme = props.theme;
   return (
     <div className="education-main">
-      <Header theme={props.theme} />
+      <Header theme={props.theme} setTheme={props.setTheme} />
       <div className="basic-education">
         <Fade bottom duration={2000} distance="40px">
           <div className="heading-div">

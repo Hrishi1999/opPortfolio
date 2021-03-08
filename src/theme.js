@@ -1,8 +1,10 @@
 // theme.js
-export const lightTheme = {
+const lightTheme = {
+  name: "light",
   body: "#FFFFFF",
   text: "#343434",
   text2: "#333333",
+  accentColor: "#E3405F",
   highlight: "#ECECEC",
   highlight1: "#FFE39A",
   highlight2: "#FAADC1",
@@ -14,10 +16,13 @@ export const lightTheme = {
   compImgHighlight: "#E6E6E6",
   jacketColor: "#E3405F",
   headerColor: "#0E6BA877",
-  svgBg: "#000000",
+  svgBg: "#FC1056",
+  contactButtonColor: "#FC1056",
+  projectCard: "#EAEAEA",
 };
 
-export const darkTheme = {
+const darkTheme = {
+  name: "dark",
   body: "#1D1D1D",
   text: "#FFFFFF",
   text2: "#7E8CA9",
@@ -29,11 +34,13 @@ export const darkTheme = {
   highlight4: "#F7D0BB",
   dark: "#000000",
   secondaryText: "#8D8D8D",
+  imageHighlight: "#E3405F",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#E3405F",
   headerColor: "#0E6BA877",
-  svgBg: "#000000",
+  svgBg: "#FC1056",
   contactButtonColor: "#FC1056",
+  projectCard: "#292A2D",
 };
 
-export const chosenTheme = darkTheme;
+export const themes = { light: lightTheme, dark: darkTheme };
