@@ -2,7 +2,7 @@
   margin: 50px;
   border-radius: 5px;
   background-color: #1d1d1d;
-  border: 1px solid rgba(211, 211, 211, 0.397);
+  border: 0.1px solid rgba(211, 211, 211, 0.397);
   transition: all 0.2s ease-in-out;
 }
 

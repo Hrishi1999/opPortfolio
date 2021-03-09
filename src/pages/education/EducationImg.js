@@ -34,7 +34,7 @@ export default function EducationImg(props) {
         rx="35.09476"
         ry="5.26421"
         transform="translate(-476.55674 294.92367) rotate(-63.61079)"
-        fill="#292A2D"
+        fill={theme.imageDark}
       />
       <ellipse
         cx="670.57742"
@@ -42,7 +42,7 @@ export default function EducationImg(props) {
         rx="35.09476"
         ry="3.57677"
         transform="translate(-428.03695 808.73554) rotate(-63.61079)"
-        fill="#292A2D"
+        fill={theme.imageDark}
       />
       <rect
         x="397.95325"
@@ -79,7 +79,7 @@ export default function EducationImg(props) {
       <path
         d="M655.01556,699.105c-8.584-4.11751-444.8438-220.718-438.55625-217.5983,24.21371-36.95739,31.19689-62.87545,31.19689-62.87545l438.55625,217.5983S670.81132,663.25857,655.01556,699.105Z"
         transform="translate(-202.30284 -162.98099)"
-        fill="#292A2D"
+        fill={theme.imageDark}
       />
       <rect
         x="421.72508"

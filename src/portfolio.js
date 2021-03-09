@@ -408,7 +408,7 @@ const certifications = {
       logo_path: "100.png",
       certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
       alt_name: "Google",
-      color_code: "#FFFFFF",
+      color_code: "#C5E2EE",
     },
     {
       title: "Google Summer of Code 2019",
