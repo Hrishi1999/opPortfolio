@@ -26,7 +26,7 @@ function Header(props) {
     transition: "all 0.2s ease-in-out",
     ":hover": {
       boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#F7D774" : "#A7A7A7"
+        props.theme.name === "light" ? "#F7D774" : "#646464"
       }`,
     },
   });

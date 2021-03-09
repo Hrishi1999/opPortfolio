@@ -135,7 +135,7 @@
 .resume-btn {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
-  background: #353535;
+  background: #fc1157;
   padding: 15px 15px;
   margin-top: 25px;
   border-radius: 4px;
@@ -151,7 +151,7 @@
 
 .resume-btn:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #353535;
+  box-shadow: 0 5px 15px #fc1157;
 }
 
 @media (max-width: 1380px) {
