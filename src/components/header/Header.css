@@ -4,12 +4,12 @@
   display: block;
   max-width: 90%;
   padding: 20px 10px;
-  margin: 0px auto;
+  margin: -10px auto;
 }
 
 .header ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   list-style: none;
   overflow: hidden;
   /* background-color: #fff; */
@@ -30,7 +30,7 @@
   float: left;
   font-size: 1.5em;
   text-decoration: none;
-  margin-top: -15px;
+  margin-top: -12px;
   line-height: normal;
 }
 
