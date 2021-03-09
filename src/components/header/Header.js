@@ -75,7 +75,7 @@ function Header(props) {
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
           </label>
-          <ul className="menu" style={{ backgroundColor: theme.body }}>
+          <ul className="menu">
             <li>
               <NavLink
                 className="homei"
