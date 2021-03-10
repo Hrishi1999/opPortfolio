@@ -66,10 +66,6 @@ function Contact(props) {
               </div>
             </div>
             <div className="blog-heading-img-div">
-              {/* <img
-										src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-										alt=""
-									/> */}
               <BlogsImg theme={theme} />
             </div>
           </div>

@@ -3,8 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { Fade } from "react-reveal";
-import { projectsHeader } from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
+import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -41,7 +40,7 @@ function Projects(props) {
         </Fade>
       </div>
       <div className="repo-cards-div-main">
-        {ProjectsData.data.map((repo) => {
+        {projects.data.map((repo) => {
           return <ProjectCard repo={repo} theme={theme} />;
         })}
       </div>

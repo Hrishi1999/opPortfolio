@@ -1,4 +1,5 @@
-// theme.js
+// Theme Presets
+
 const lightTheme = {
   name: "light",
   body: "#FFFFFF",
@@ -6,7 +7,6 @@ const lightTheme = {
   secondaryText: "#7F8DAA",
   accentColor: "#E3405F",
   dark: "#000000",
-  compImgHighlight: "#E6E6E6",
   jacketColor: "#E3405F",
   contactButtonColor: "#FC1056",
   projectCard: "#DCE4F2",
@@ -25,7 +25,6 @@ const darkTheme = {
   secondaryText: "#8D8D8D",
   accentColor: "#E3405F",
   dark: "#000000",
-  compImgHighlight: "#E6E6E6",
   jacketColor: "#E3405F",
   contactButtonColor: "#FC1056",
   projectCard: "#292A2D",

@@ -63,7 +63,7 @@ function Header(props) {
   return (
     <Fade top duration={1000} distance="20px">
       <div>
-        <header className="header" setTheme={props.setTheme}>
+        <header className="header">
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>

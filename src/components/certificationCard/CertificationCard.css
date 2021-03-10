@@ -60,10 +60,6 @@
   transition: all 0.4s ease-in-out 0s;
 }
 
-/* .content:hover .content-overlay{
-  opacity: 1;
-} */
-
 .content-details {
   position: absolute;
   text-align: center;
@@ -98,9 +94,6 @@
 
 .fadeIn-top {
   top: 20%;
-}
-
-@media (max-width: 1380px) {
 }
 
 @media (max-width: 768px) {
