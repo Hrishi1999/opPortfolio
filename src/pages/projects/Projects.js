@@ -6,9 +6,18 @@ import { Fade } from "react-reveal";
 import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import { style } from "glamor";
 
 function Projects(props) {
   const theme = props.theme;
+
+  const styles = style({
+    backgroundColor: `${theme.contactButtonColor}`,
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.contactButtonColor}`,
+    },
+  });
+
   return (
     <div className="projects-main">
       <Header theme={theme} setTheme={props.setTheme} />
@@ -41,9 +50,16 @@ function Projects(props) {
         })}
       </div>
       <br />
-      <a className="resume-btn" href="https://github.com/hrishi1999">
+      <br />
+      <br />
+      <a
+        {...styles}
+        className="general-btn"
+        href="https://github.com/hrishi1999"
+      >
         More Projects (Github)
       </a>
+      <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>

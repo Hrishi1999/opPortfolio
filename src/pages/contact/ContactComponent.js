@@ -6,12 +6,21 @@ import BlogsImg from "./BlogsImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
+import { style } from "glamor";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 
 function Contact(props) {
   const theme = props.theme;
+
+  const styles = style({
+    backgroundColor: `${theme.contactButtonColor}`,
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.contactButtonColor}`,
+    },
+  });
+
   return (
     <div className="contact-main">
       <Header theme={theme} setTheme={props.setTheme} />
@@ -41,7 +50,7 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a className="resume-btn" href={greeting.resumeLink}>
+              <a {...styles} className="general-btn" href={greeting.resumeLink}>
                 See my Resume
               </a>
             </div>
@@ -60,7 +69,7 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a className="resume-btn" href={blogSection.link}>
+                <a {...styles} className="general-btn" href={blogSection.link}>
                   My Medium Profile
                 </a>
               </div>
