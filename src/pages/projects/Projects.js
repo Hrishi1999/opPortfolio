@@ -12,9 +12,9 @@ function Projects(props) {
   const theme = props.theme;
 
   const styles = style({
-    backgroundColor: `${theme.contactButtonColor}`,
+    backgroundColor: `${theme.accentBright}`,
     ":hover": {
-      boxShadow: `0 5px 15px ${theme.contactButtonColor}`,
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
   });
 

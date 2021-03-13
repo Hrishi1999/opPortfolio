@@ -21,7 +21,7 @@ function Header(props) {
     border: "none",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: props.theme.name === "light" ? "#83C8E4" : "#292C3F",
+    backgroundColor: props.theme.name === "light" ? "#7CD1F7" : "#292C3F",
     outline: "none",
     transition: "all 0.2s ease-in-out",
     ":hover": {

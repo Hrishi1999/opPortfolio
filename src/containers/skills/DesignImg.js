@@ -253,12 +253,12 @@ export default function DesignImg(props) {
       <path
         d="M282.84,679.24h.46l-.86.33Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M354.5,651.87l-7.45,2.86-1,.37-26.82,10.31L309,669.34l-13.92,5.35H289.4c-17.62-.05-35.17-.44-52.61-1.35,3.38-7.41,9.29-19.27,14.11-23.1,3.76-3,30.66-6.24,55.49-8.68,3.1-.3,6.16-.59,9.14-.86l.71-.07c9.86-.9,18.78-1.63,25-2.13l1-.08,7.82-.6.82-.82,1,4.28.83,3.42Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M282.84,679.24h.46l-.86.33Z"
@@ -273,21 +273,21 @@ export default function DesignImg(props) {
       <path
         d="M282.84,679.24h.46l-.86.33Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M315.15,679.24c0,.11-.08.22-.11.33h0c0-.11.07-.22.12-.33Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <polygon
         points="336.05 507.53 335.31 507.53 335.2 507.2 335.94 507.2 336.05 507.53"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M360.87,641.42,360.25,662l0,1.11v.11l-.31,10.19-7.31.24-1.06,0q-15.6.5-31.17.77l-2.75,0h-.09l-3.34,0-4.64.06q-7.23.07-14.43.08H289.4c5.2-3.22,11.93-6.77,19.17-10.32,3.25-1.6,6.62-3.19,10-4.76,9-4.18,18.11-8.13,25.54-11.28l.95-.4c2.88-1.22,5.49-2.31,7.72-3.23,4.82-2,7.88-3.2,8.09-3.28Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M294.08,556.84c1.87,3.9,3.8,7.88,6.89,10.92.49.48,1.34.92,1.78.39a1.26,1.26,0,0,0,.19-.74,9.54,9.54,0,0,0-1.8-5.1c-1-1.54-2.18-2.94-3.07-4.54s-1.91-4.68-3.91-5.1C291.59,552.13,293.51,555.66,294.08,556.84Z"
@@ -307,7 +307,7 @@ export default function DesignImg(props) {
       <path
         d="M341.1,496.79s-7,8.5-5.88,14.06h8.49l6.21-7Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M366,460.9,339.3,497.61s6.86,9.81,10.13,10.3,21.92-43.42,21.92-43.42Z"
@@ -322,7 +322,7 @@ export default function DesignImg(props) {
       <path
         d="M336.2,507.26s-1.31,20.58-2.62,24.67,0,41.66,0,41.66l12.26-5.06-2.13-57.68Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <polygon
         points="335.94 507.2 336.05 507.53 335.31 507.53 335.2 507.2 335.94 507.2"
@@ -772,7 +772,7 @@ export default function DesignImg(props) {
       <path
         d="M793.87,545.52s12.26,4.37,11.78,4.61-11.78,4.49-11.78,4.49l.85,16.63,16.63-.91s6.07-30.28.85-33.32l-18.33-.85Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M793.87,545.52s12.26,4.37,11.78,4.61-11.78,4.49-11.78,4.49l.85,16.63,16.63-.91s6.07-30.28.85-33.32l-18.33-.85Z"
@@ -797,12 +797,12 @@ export default function DesignImg(props) {
       <path
         d="M763.89,616.28s-2.28,2.8-4.81,5.41c-1.91,2-4,3.83-5.26,4.3-3,1.09-16.75,11.53-16.75,11.53s-10.93,7.41-13.72,9.59-12.86.85-12.86.85-13.84-3-18.7-8.5c-3.4-3.83.12-10.93,2.52-14.84,1-1.67,1.85-2.76,1.85-2.76Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M781.86,522.21c-8.26-.73-35.45-34-35.45-34l.62-.85,5.7-7.89h13.33l1.47,7.28c10.14,14.22,16.11,24.11,17.73,29.77C786.43,520.64,785.32,522.52,781.86,522.21Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M781.86,522.21c-8.26-.73-35.45-34-35.45-34l.62-.85a153.54,153.54,0,0,1,13.71,14.32c19.9,23.42,23.84,16.88,24.52,14.84C786.43,520.64,785.32,522.52,781.86,522.21Z"
@@ -827,7 +827,7 @@ export default function DesignImg(props) {
       <path
         d="M756.12,478l-4,5.59-4.06,5.73L745,493.81,726.23,478,723,475.2l-1.81-1.54c1.83-7.47,5.08-11.2,7.67-13a9.53,9.53,0,0,1,4-1.79Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M913.19,550.13c-19.06,5.7-44.91,3.28-44.91,3.28s-25.25,6.55-29.13,10c-2.5,2.19-15.27,3-24,3.33-4.85.18-8.48.19-8.48.19L812,545.4l3.08-.14c6.91-.32,23.2-1.14,25.2-1.81,2.55-.85,25.12-3.76,25.12-3.76S932.24,544.42,913.19,550.13Z"
@@ -862,7 +862,7 @@ export default function DesignImg(props) {
       <path
         d="M794.84,552.8s12.26,4.37,11.78,4.61-11.78,4.49-11.78,4.49l.85,16.63,16.63-.91s6.07-30.28.85-33.32l-18.33-.85Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <path
         d="M722.14,572.71s-4.13,3.88-7.53,4.91Z"
@@ -931,7 +931,7 @@ export default function DesignImg(props) {
       <path
         d="M729.37,404c-.9,4.14-2.14,9.52-3.07,12.29a13.14,13.14,0,0,1-.24-1.75,2.5,2.5,0,0,0-1.14.47c0-2.91.35-7.24.66-10.48a2.51,2.51,0,0,1,2.61,1.37C728.55,405.26,729,404.62,729.37,404Z"
         transform="translate(-17.96 -172.03)"
-        fill={theme.jacketColor}
+        fill={theme.accentColor}
       />
       <g opacity="0.7">
         <path
