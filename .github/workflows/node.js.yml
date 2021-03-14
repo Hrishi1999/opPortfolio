@@ -29,11 +29,11 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     
-    - name: Deploy to netlify
-      uses: netlify/actions/cli@master
-      env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.DEV_NETLIFY_SITE_ID }}
-      with:
-        args: deploy --dir=build --prod
-        secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
+#     - name: Deploy to netlify
+#       uses: netlify/actions/cli@master
+#       env:
+#         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+#         NETLIFY_SITE_ID: ${{ secrets.DEV_NETLIFY_SITE_ID }}
+#       with:
+#         args: deploy --dir=build --prod
+#         secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
