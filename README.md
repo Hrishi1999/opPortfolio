@@ -17,7 +17,7 @@
 
 # How To Use
 
-- Clone this repository
+- Clone this repository (or fork, then clone your fork :) )
 - Run `npm i`
 - Check it out using `npm start`
 
@@ -30,5 +30,5 @@
 
 # References
 
-Fork of https://github.com/ashutosh1919/masterPortfolio/ based on https://github.com/saadpasta/developerFolio
+Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
 Illustrations: https://undraw.co/
