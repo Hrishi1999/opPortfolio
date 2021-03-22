@@ -10,15 +10,15 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "hrishi.p()",
+  title2: "Abhra",
+  logo_name: "Abhra.S()",
   nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
+  full_name: "Abhra_Sinha",
   subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+    "Solutions Architect, Cloud Specialist. Tech Enthusiast. Hobbyist Photographer",
   resumeLink:
     "https://drive.google.com/file/d/1PdrN3ybF8ydzPmKDqXxqWMTWNfoBYodO/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+  mail: "mailto:abhra.sinha2007@gmail.com",
 };
 
 const socialMediaLinks = {
@@ -35,7 +35,7 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "AWS Solutions Architect",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using ReactJS",
