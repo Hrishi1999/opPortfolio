@@ -230,7 +230,7 @@ const degrees = {
       title: "SRM University",
       subtitle: "BTech in Instrumentation and Control Engineering",
       logo_path: "sal.png",
-      alt_name: "SETI",
+      alt_name: "S",
       duration: "2012-2016",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
