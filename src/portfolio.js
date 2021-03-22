@@ -4,7 +4,7 @@
 const settings = {
   isSplash: false, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  googleTrackingID: "",
 };
 
 //Home Page
@@ -12,24 +12,24 @@ const greeting = {
   title: "Hello.",
   title2: "Abhra",
   logo_name: "Abhra.S()",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Abhra_Sinha",
+  nickname: "Abby",
+  full_name: "Abhra Sinha",
   subTitle:
-    "Solutions Architect, Cloud Specialist. Tech Enthusiast. Hobbyist Photographer",
+    "Solutions Architect, Cloud Specialist. Tech Enthusiast. Hobbyist Photographer. Occasional Traveller.",
   resumeLink:
-    "https://drive.google.com/file/d/1PdrN3ybF8ydzPmKDqXxqWMTWNfoBYodO/view?usp=sharing",
+    "https://drive.google.com/",
   mail: "mailto:abhra.sinha2007@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
-  gmail: "hrishipatel99@gmail.com",
+  github: "https://github.com/AbhraSinha",
+  linkedin: "www.linkedin.com/in/abhra-sinha",
+  gmail: "abhra.sinha2007@gmail.com",
   gitlab: " ",
   facebook: " ",
-  twitter: "https://twitter.com/hrishi_55",
-  instagram: "https://www.instagram.com/picleric/",
+  twitter: "https://twitter.com/Abhra_Sinha",
+  instagram: "https://www.instagram.com/abhrasinha94/",
 };
 
 const skills = {
@@ -38,9 +38,9 @@ const skills = {
       title: "AWS Solutions Architect",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Creating Solutions on Amazon Web Services",
+        "⚡ ",
+        "⚡ ",
       ],
       softwareSkills: [
         {
@@ -208,140 +208,36 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#6E6E6E",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-      ],
-    },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "SAL Engineering and Technical Institute",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "UIC - University of Illinois at Chicago",
+      subtitle: "Masters of Science in Computer Engineering",
       logo_path: "sal.png",
       alt_name: "SETI",
-      duration: "2017 - Present",
+      duration: "2016-2018",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.sal.edu.in/",
+      website_link: "https://www.uic.edu",
+    },
+    {
+      title: "SRM University",
+      subtitle: "BTech in Instrumentation and Control Engineering",
+      logo_path: "sal.png",
+      alt_name: "SETI",
+      duration: "2012-2016",
+      descriptions: [
+        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+        "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
+        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+      ],
+      website_link: "https://www.srmuniv.ac.in",
     },
   ],
 };
@@ -393,79 +289,13 @@ const certifications = {
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
-    {
-      title: "Neural Networks and Deep Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
-      alt_name: "Google",
-      color_code: "#7A7A7A",
-    },
-    {
-      title: "Improving Deep Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Android Developer Nanodegree",
-      subtitle: "Part of Google India Scholarship Program",
-      logo_path: "100.png",
-      certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
-      alt_name: "Google",
-      color_code: "#C5E2EE",
-    },
-    {
-      title: "Google Summer of Code 2019",
-      subtitle: "Google / Sugar Labs",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffc475",
-    },
-    {
-      title: "Google Code-In Student",
-      subtitle: "2014-2017",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#1e70c1",
-    },
-    {
-      title: "Google Summer of Code Mentor",
-      subtitle: "2017 / 2018 / 2020",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffbfae",
-    },
-    {
-      title: "InOut 4.0 Winner #2",
-      subtitle: "2017",
-      logo_path: "ino.png",
-      certificate_link: " ",
-      alt_name: "InOut",
-      color_code: "#fffbf3",
-    },
-    {
-      title: "Google Code-In Mentor",
-      subtitle: "2017 / 2018 / 2019",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#b190b0",
-    },
   ],
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Professional Experience",
   description:
     "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
@@ -582,7 +412,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "hrishi2.png",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "Reach out to me via email or linkedin.",
   },
   blogSection: {
     title: "Blogs",
