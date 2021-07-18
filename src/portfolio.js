@@ -471,6 +471,22 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
+      title: "Work",
+      experiences: [
+        {
+          title: "Full Stack Developer",
+          company: "Quicko",
+          company_url: "https://quicko.com/",
+          logo_path: "quicko.jpg",
+          duration: "June 2021",
+          location: "Ahmedabad",
+          description:
+            "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
+          color: "#2962FF",
+        },
+      ],
+    },
+    {
       title: "Internships",
       experiences: [
         {
