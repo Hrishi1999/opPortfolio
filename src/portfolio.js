@@ -134,6 +134,8 @@ const skills = {
           fontAwesomeClassname: "simple-icons:nextdotjs",
           style: {
             color: "#FFFFFF",
+            backgroundColor: "#1D1D1D",
+            borderRadius: "50%",
           },
         },
         {
