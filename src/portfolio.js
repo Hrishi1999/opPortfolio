@@ -38,9 +38,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "Building responsive website front end using ReactJS",
+        "Developing mobile applications using Flutter and native Android",
+        "Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
         {
@@ -73,59 +73,10 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
-        },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
           style: {
             color: "#f89820",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
         {
@@ -150,46 +101,11 @@ const skills = {
           },
         },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
-          },
-        },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
-          },
-        },
-        {
           skillName: "C#",
           fontAwesomeClassname: "simple-icons:csharp",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
           },
         },
         {
@@ -202,6 +118,78 @@ const skills = {
         {
           skillName: "C++",
           fontAwesomeClassname: "simple-icons:cplusplus",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#FFFFFF",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "#DE33A6",
+          },
+        },
+        {
+          skillName: "Android App Development",
+          fontAwesomeClassname: "simple-icons:android",
+          style: {
+            color: "#3DDC84",
+          },
+        },
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1",
+          },
+        },
+
+        {
+          skillName: "Wordpress",
+          fontAwesomeClassname: "simple-icons:wordpress",
+          style: {
+            color: "#207297",
+          },
+        },
+
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#E94E32",
           },
@@ -300,13 +288,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
           },
         },
         {
@@ -478,7 +459,7 @@ const experience = {
           company: "Quicko",
           company_url: "https://quicko.com/",
           logo_path: "quicko.jpg",
-          duration: "June 2021",
+          duration: "June 2021 - October 2021",
           location: "Ahmedabad",
           description:
             "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
