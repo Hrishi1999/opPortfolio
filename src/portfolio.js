@@ -595,6 +595,22 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      id: "50",
+      name: "Journalify",
+      url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
+      description: "You personal journaling companion, goals & daily challenges!",
+      languages: [
+        {
+          name: "Flutter",
+          iconifyClass: "logos-flutter",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
       id: "0",
       name: "opPortfolio",
       url: "https://github.com/Hrishi1999/opPortfolio",
