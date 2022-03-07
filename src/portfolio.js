@@ -611,6 +611,22 @@ const projects = {
       ],
     },
     {
+      id: "51",
+      name: "RecipesAPI",
+      url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
+      description: "Get recipes for hundreds and thousands of dishes",
+      languages: [
+        {
+          name: "NodeJS",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+      ],
+    },
+    {
       id: "0",
       name: "opPortfolio",
       url: "https://github.com/Hrishi1999/opPortfolio",
