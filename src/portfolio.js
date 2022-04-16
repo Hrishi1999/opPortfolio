@@ -318,7 +318,7 @@ const degrees = {
       subtitle: "B.Tech. in Computer Engineering",
       logo_path: "sal.png",
       alt_name: "SETI",
-      duration: "2017 - Present",
+      duration: "2017 - 2021",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
