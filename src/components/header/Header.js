@@ -136,6 +136,8 @@ function Header(props) {
             <li>
               <a
                 className="cr"
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://play.google.com/store/apps/details?id=com.picle.journalify"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}

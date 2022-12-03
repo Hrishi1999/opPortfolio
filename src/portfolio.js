@@ -80,6 +80,13 @@ const skills = {
           },
         },
         {
+          skillName: "Kotlin",
+          fontAwesomeClassname: "simple-icons:kotlin",
+          style: {
+            color: "#5c79df",
+          },
+        },
+        {
           skillName: "Dart",
           fontAwesomeClassname: "simple-icons:dart",
           style: {
@@ -313,6 +320,19 @@ const skills = {
 
 const degrees = {
   degrees: [
+    {
+      title: "Dalhousie University",
+      subtitle: "Masters in Applied Computer Science",
+      logo_path: "dal.png",
+      alt_name: "DAL",
+      duration: "2022 - 2023",
+      descriptions: [
+        "⚡ Studied Advanced Software Development Concepts, Data Managmenet & Warehousing",
+        "⚡ Also studied Mobile Computing, Severless Data Processing and created projects on them",
+        "⚡ Upcoming courses: Advanced Topics in Web Development and Cloud Computing",
+      ],
+      website_link: "https://www.dal.ca/",
+    },
     {
       title: "SAL Engineering and Technical Institute",
       subtitle: "B.Tech. in Computer Engineering",
@@ -598,7 +618,8 @@ const projects = {
       id: "50",
       name: "Journalify",
       url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
-      description: "You personal journaling companion, goals & daily challenges!",
+      description:
+        "You personal journaling companion, goals & daily challenges!",
       languages: [
         {
           name: "Flutter",
