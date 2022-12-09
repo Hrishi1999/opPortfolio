@@ -615,7 +615,6 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      id: "50",
       name: "Journalify",
       url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
       description:
@@ -632,7 +631,6 @@ const projects = {
       ],
     },
     {
-      id: "51",
       name: "RecipesAPI",
       url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
       description: "Get recipes for hundreds and thousands of dishes",
@@ -648,7 +646,6 @@ const projects = {
       ],
     },
     {
-      id: "0",
       name: "opPortfolio",
       url: "https://github.com/Hrishi1999/opPortfolio",
       description: "(This) A clean and full customizable portfolio template.",
@@ -660,7 +657,6 @@ const projects = {
       ],
     },
     {
-      id: "1",
       name: "Cab Security System",
       url: " ",
       description:
@@ -681,7 +677,6 @@ const projects = {
       ],
     },
     {
-      id: "2",
       name: "Lensinator",
       url: " ",
       description:
@@ -702,7 +697,6 @@ const projects = {
       ],
     },
     {
-      id: "12",
       name: "Doorbell.io",
       url: "https://github.com/Hrishi1999/Doorbell.io",
       description:
@@ -723,7 +717,6 @@ const projects = {
       ],
     },
     {
-      id: "13",
       name: "Video Summarization (WIP)",
       url: "https://github.com/Hrishi1999/Video-Summarization",
       description:
@@ -748,7 +741,6 @@ const projects = {
       ],
     },
     {
-      id: "3",
       name: "Dashboard Activity",
       url: "https://github.com/Hrishi1999/Dashboard.activity",
       description:
@@ -761,7 +753,6 @@ const projects = {
       ],
     },
     {
-      id: "4",
       name: "Project Pickle",
       url: " ",
       description:
@@ -782,7 +773,6 @@ const projects = {
       ],
     },
     {
-      id: "5",
       name: "Project Health Card",
       url: "",
       description:
@@ -811,7 +801,6 @@ const projects = {
       ],
     },
     {
-      id: "6",
       name: "Food Classifier",
       url: " ",
       description:
@@ -836,7 +825,6 @@ const projects = {
       ],
     },
     {
-      id: "7",
       name: "Image Clustering",
       url: " ",
       description:
@@ -853,7 +841,6 @@ const projects = {
       ],
     },
     {
-      id: "8",
       name: "Antivirus",
       url: " ",
       description:
@@ -866,7 +853,6 @@ const projects = {
       ],
     },
     {
-      id: "9",
       name: "Sugar on Windows",
       url: " ",
       description:
@@ -883,7 +869,6 @@ const projects = {
       ],
     },
     {
-      id: "10",
       name: "Object + Face Detection",
       url: " ",
       description: "2017 project. Object detection + accurate face detection.",
@@ -903,7 +888,6 @@ const projects = {
       ],
     },
     {
-      id: "11",
       name: "Image Captioning with Visual Attention",
       url: " ",
       description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
@@ -919,6 +903,48 @@ const projects = {
         {
           name: "Jupyter Notebook",
           iconifyClass: "logos-jupyter",
+        },
+      ],
+    },
+    {
+      name: "DalSocial",
+      url: " ",
+      description:
+        "CSCI5708 Project. A social media and meetups app for university students. ",
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "simple-icons:kotlin",
+          color: "#F18E33",
+        },
+        {
+          name: "Android",
+          iconifyClass: "simple-icons:android",
+          color: "#3DDC84",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
+      name: "HalifaxFoodie",
+      url: " ",
+      description:
+        "CSCI5410 Project. A multi-client recipe app for Halifax Foodies.",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "AWS",
+          iconifyClass: "logos-aws",
+        },
+        {
+          name: "Google Cloud",
+          iconifyClass: "logos-google-cloud",
         },
       ],
     },
