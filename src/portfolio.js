@@ -252,10 +252,10 @@ const contactPageData = {
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Giving Back to Community",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
-    link: "https://medium.com/@hrishipatel99",
+      "I try to be active on platforms like StackOverflow to give back to developer community.",
+    link: "https://stackoverflow.com/users/9528129/harshil-shah",
     avatar_image_path: "blogs_image.svg",
   },
 };
