@@ -15,7 +15,7 @@ const greeting = {
   // nickname: "hrishi1999 / picleric",
   full_name: "Harshil Shah",
   subTitle:
-    "Full Stack Developer. Always learning and improving.",
+    "Aspiring Full Stack Developer. I prefer to be the dumbest guy in the room to grow exponentially in a fast-paced environment.",
   resumeLink:
     "https://drive.google.com/file/d/1FSdstbbbdAzN1yURV8KOdouaCwmUe7bo/view?usp=share_link",
   mail: "mailto:harshil.cse@gmail.com",
