@@ -69,7 +69,7 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link} target="_blank">
+                <a {...styles} className="general-btn" href={blogSection.link} rel="noreferrer" target="_blank">
                   StackOverflow Profile
                 </a>
               </div>
