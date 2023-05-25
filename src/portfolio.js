@@ -38,9 +38,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS",
+        "⚡ Building responsive website front end using ReactJS and Angular",
         "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Backend development using NodeJS, ExpressJS and Flask",
       ],
       softwareSkills: [
         {
@@ -205,63 +205,16 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#6E6E6E",
-          },
-        },
-      ],
-    },
+
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
+        "⚡ Experience hosting and managing web apps on GCP and AWS",
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Certified Cloud Practioner from AWS",
+        "⚡ Soon to be certified Developer Associate from AWS :)",
       ],
       softwareSkills: [
         {
@@ -315,6 +268,55 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Data Science & AI",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Certifications by deeplearning.ai and Stanford Online",
+        "⚡ Experience with 10+ Projects",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+          style: {
+            backgroundColor: "transparent",
+            color: "#6E6E6E",
+          },
+        },
+      ],
+    },
   ],
 };
 
@@ -327,9 +329,9 @@ const degrees = {
       alt_name: "DAL",
       duration: "2022 - 2023",
       descriptions: [
-        "⚡ Studied Advanced Software Development Concepts, Data Managmenet & Warehousing",
-        "⚡ Also studied Mobile Computing, Severless Data Processing and created projects on them",
-        "⚡ Upcoming courses: Advanced Topics in Web Development and Cloud Computing",
+        "⚡ Studied Advanced Software Development Concepts, Data Management & Warehousing",
+        "⚡ Learn Advanced Topics in Cloud Computing, Cloud Architecture along with Serverless Computing",
+        "⚡ Worked on projects on courses like Mobile Computing and Web Technologies.",
       ],
       website_link: "https://www.dal.ca/",
     },
@@ -351,6 +353,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "AWS Certified Cloud Practioner",
+      subtitle: "Amazon Web Services",
+      logo_path: "aws.png",
+      certificate_link:
+        "https://www.credly.com/badges/8b2db191-702d-427c-91aa-0f926be447a6/linked_in?t=rscaex",
+      alt_name: "AWS",
+      color_code: "#ffc475",
+    },
     {
       title: "Google Summer of Code 2019",
       subtitle: "Google / Sugar Labs",
@@ -476,6 +487,17 @@ const experience = {
     {
       title: "Work",
       experiences: [
+        {
+          title: "IT Developer",
+          company: "Canada Revenue Agency",
+          company_url: "https://www.canada.ca/en/revenue-agency.html",
+          logo_path: "cra.png",
+          duration: "May 2023 - Ongoing",
+          location: "Halifax, Nova Scotia",
+          description:
+            "Canada Revenue Agency (CRA) administers tax laws for the Government of Canada and for most provinces and territories, and administers various social and economic benefit and incentive programs delivered through the tax system.",
+          color: "#f10000",
+        },
         {
           title: "Full Stack Developer",
           company: "Quicko",
@@ -606,7 +628,7 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
+      "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
     link: "https://medium.com/@hrishipatel99",
     avatar_image_path: "blogs_image.svg",
   },
@@ -618,7 +640,7 @@ const projects = {
       name: "Journalify",
       url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
       description:
-        "You personal journaling companion, goals & daily challenges!",
+        "You personal journaling companion, goals & daily challenges! About 5k+ downloads on Play Store.",
       languages: [
         {
           name: "Flutter",
