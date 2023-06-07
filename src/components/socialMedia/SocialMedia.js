@@ -29,7 +29,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-outlook"></i>
+        <i className="fab fa-mail"></i>
         <span></span>
       </a>
       <a
