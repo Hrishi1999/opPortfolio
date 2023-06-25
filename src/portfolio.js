@@ -213,7 +213,7 @@ const skills = {
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Experience hosting and managing web apps on GCP and AWS",
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Certified Cloud Practioner from AWS",
+        "⚡ Certified AWS Developer Associate and Cloud Practioner",
         "⚡ Soon to be certified Developer Associate from AWS :)",
       ],
       softwareSkills: [
@@ -354,11 +354,20 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "AWS Developer Associate",
+      subtitle: "Amazon Web Services",
+      logo_path: "aws.png",
+      certificate_link:
+        "https://www.credly.com/badges/b12fbece-07f3-47f5-9dda-cd56f49e250d/public_url",
+      alt_name: "AWS",
+      color_code: "#ffc475",
+    },
+    {
       title: "AWS Certified Cloud Practioner",
       subtitle: "Amazon Web Services",
       logo_path: "aws.png",
       certificate_link:
-        "https://www.credly.com/badges/8b2db191-702d-427c-91aa-0f926be447a6/linked_in?t=rscaex",
+        "https://www.credly.com/badges/8b2db191-702d-427c-91aa-0f926be447a6/public_url",
       alt_name: "AWS",
       color_code: "#ffc475",
     },
