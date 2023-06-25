@@ -210,11 +210,10 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
+        "⚡ Certified AWS Developer Associate and Cloud Practioner",
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Experience hosting and managing web apps on GCP and AWS",
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Certified AWS Developer Associate and Cloud Practioner",
-        "⚡ Soon to be certified Developer Associate from AWS :)",
       ],
       softwareSkills: [
         {
