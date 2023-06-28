@@ -11,11 +11,13 @@ import ReactGA from "react-ga4";
 function App() {
   useEffect(() => {
     if (settings.googleTrackingID) {
-      ReactGA.initialize(settings.googleTrackingID, {
-        testMode: process.env.NODE_ENV === "test",
-      });
+      ReactGA.initialize(settings.googleTrackingID);
+      //   , {
+      //   testMode: process.env.NODE_ENV === "test",
+      // });
       // ReactGA.pageview(window.location.pathname + window.location.search);
-      ReactGA.send(SendAnalytics);
+      // ReactGA.send(SendAnalytics);
+      SendAnalytics();
     }
   }, []);
 
