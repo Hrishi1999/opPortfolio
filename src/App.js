@@ -6,7 +6,7 @@ import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 function App() {
   useEffect(() => {
@@ -14,9 +14,17 @@ function App() {
       ReactGA.initialize(settings.googleTrackingID, {
         testMode: process.env.NODE_ENV === "test",
       });
-      ReactGA.pageview(window.location.pathname + window.location.search);
+      // ReactGA.pageview(window.location.pathname + window.location.search);
+      ReactGA.send(SendAnalytics);
     }
   }, []);
+
+  const SendAnalytics = () => {
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname,
+    });
+  };
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
   const useCursor = settings.useCustomCursor;

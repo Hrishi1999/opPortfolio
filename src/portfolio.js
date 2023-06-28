@@ -4,7 +4,7 @@
 const settings = {
   isSplash: false, // Change this to true if you want to use the splash screen.
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  googleTrackingID: "G-5NXB5SKC0N",
 };
 
 //Home Page
@@ -64,7 +64,7 @@ const skills = {
             color: "#f89820",
           },
         },
-     
+
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -163,7 +163,8 @@ const certifications = {
       title: "AWS Certified Cloud Practitioner",
       subtitle: "Amazon Web Services (AWS)",
       logo_path: "aws.png",
-      certificate_link: "https://www.credly.com/badges/961b498e-b76c-46a9-80ad-5be67d5cfecb/linked_in_profile",
+      certificate_link:
+        "https://www.credly.com/badges/961b498e-b76c-46a9-80ad-5be67d5cfecb/linked_in_profile",
       alt_name: "AWS",
       color_code: "#ffc475",
     },
@@ -188,8 +189,7 @@ const experience = {
           logo_path: "wipro.png",
           duration: "September 2020 - July 2022",
           location: "Pune",
-          description:
-            `– Developed user interface utilizing Angular's features eg components, directives, and pipes.
+          description: `– Developed user interface utilizing Angular's features eg components, directives, and pipes.
             – Created REST API microservices on top of 3rd party APIs using Java Spring Boot Framework.
             – Worked with AWS architecture like EC2, S3.
             – Coordinated a team of 5 developers`,
@@ -207,8 +207,7 @@ const experience = {
           logo_path: "cap.png",
           duration: "December 2019 - April 2020",
           location: "Work From Home",
-          description:
-            `– Represented a team of 4 interns
+          description: `– Represented a team of 4 interns
             – Developed In-House Global Code Review Web Portal
             – Implemented SVM classifier with accuracy of 87.65% for predicting any code as Good/Bad
             – Participated in walkthrough reviews of technical specifications, programs, code, and unit test plans
@@ -222,8 +221,7 @@ const experience = {
           logo_path: "e.png",
           duration: "May 2018 - June 2018",
           location: "Work From Home",
-          description:
-            `– Developed Image Analysis application for windows platform using Visual Studio and OpenCV \n
+          description: `– Developed Image Analysis application for windows platform using Visual Studio and OpenCV \n
             – Role included researching/learning about various Metallurgical terminologies to do the math \n
             – Working closely with client and understanding requirement deeply \n
             – Feature extraction from provided image dataset is done with 99% accuracy \n
@@ -281,7 +279,8 @@ const projects = {
     {
       name: "TrackTips",
       url: "https://github.com/sHarshil-Shah/TrackTips",
-      description: "Track Stock Market tips from various sources at one location. Whole Cloud Architecture is formed by a AWS CloudFormation Script. Individual Cloud Project for 5409",
+      description:
+        "Track Stock Market tips from various sources at one location. Whole Cloud Architecture is formed by a AWS CloudFormation Script. Individual Cloud Project for 5409",
       languages: [
         {
           name: "AWS",
@@ -296,7 +295,8 @@ const projects = {
     {
       name: "TripMate",
       url: "https://github.com/sHarshil-Shah/TripMate",
-      description: "Using SOLID and Design Principles (e.g. Abstract Factory, Singleton, Adapter) build a TDD driven application that let's one choose  Group Project for 5308 ASDC",
+      description:
+        "Using SOLID and Design Principles (e.g. Abstract Factory, Singleton, Adapter) build a TDD driven application that let's one choose  Group Project for 5308 ASDC",
       languages: [
         {
           name: "Spring Boot",
