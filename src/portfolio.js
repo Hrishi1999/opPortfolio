@@ -645,6 +645,33 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      name: "CineScope",
+      url: "https://github.com/Hrishi1999/CineScope",
+      description: "An IMDB-like application.",
+      languages: [
+        {
+          name: "React.js",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "devicon-typescript",
+        },
+        {
+          name: "Node.js",
+          iconifyClass: "devicon-nodejs",
+        },
+        {
+          name: "Express.js",
+          iconifyClass: "devicon-express",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb",
+        },
+      ],
+    },
+    {
       name: "Journalify",
       url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
       description:
@@ -747,7 +774,7 @@ const projects = {
       ],
     },
     {
-      name: "Video Summarization (WIP)",
+      name: "Video Summarization",
       url: "https://github.com/Hrishi1999/Video-Summarization",
       description:
         "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
@@ -940,7 +967,7 @@ const projects = {
       name: "DalSocial",
       url: " ",
       description:
-        "CSCI5708 Project. A social media and meetups app for university students. ",
+        "An Android app to meet new people in the university, organize and join events. ",
       languages: [
         {
           name: "Kotlin",
