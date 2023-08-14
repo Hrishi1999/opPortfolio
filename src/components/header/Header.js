@@ -133,19 +133,19 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
-            <li>
-              <a
-                className="cr"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://studio7.netlify.app/"
-                tag={Link}
-                activestyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Studio7
-              </a>
-            </li>
+            {/*<li>*/}
+            {/*  <a*/}
+            {/*    className="cr"*/}
+            {/*    target="_blank"*/}
+            {/*    rel="noopener noreferrer"*/}
+            {/*    href="https://studio7.netlify.app/"*/}
+            {/*    tag={Link}*/}
+            {/*    activestyle={{ fontWeight: "bold" }}*/}
+            {/*    style={{ borderRadius: 5, color: theme.text }}*/}
+            {/*  >*/}
+            {/*    Studio7*/}
+            {/*  </a>*/}
+            {/*</li>*/}
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

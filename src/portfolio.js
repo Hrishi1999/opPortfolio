@@ -1,4 +1,4 @@
-/* Change this file to get your personal Porfolio */
+/* Change this file to get your personal Portfolio */
 
 // Website related settings
 const settings = {
@@ -12,7 +12,6 @@ const greeting = {
   title: "Hello.",
   title2: "Harshil",
   logo_name: "harshil.s()",
-  // nickname: "hrishi1999 / picleric",
   full_name: "Harshil Shah",
   subTitle:
     "Aspiring Full Stack Developer. I prefer to be the dumbest guy in the room to grow exponentially in a fast-paced environment.",
@@ -262,7 +261,7 @@ const projects = {
   data: [
     {
       name: "Studio7",
-      url: "https://github.com/sHarshil-Shah/Studio7_JAVA-FS.git",
+      url: "https://studio7.netlify.app/", //"https://github.com/sHarshil-Shah/Studio7_JAVA-FS.git",
       description:
         "A learning project to combine Angular and Spring Boot's knowledge to make a static Video Library",
       languages: [
