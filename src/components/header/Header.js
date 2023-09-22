@@ -83,7 +83,7 @@ function Header(props) {
                 className="homei"
                 to="/home"
                 tag={Link}
-                activestyle={{ fontWeight: "bold" }}
+                activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Home
@@ -94,7 +94,7 @@ function Header(props) {
                 className="ec"
                 to="/education"
                 tag={Link}
-                activestyle={{ fontWeight: "bold" }}
+                activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Education and Certifications
@@ -105,7 +105,7 @@ function Header(props) {
                 className="xp"
                 to="/experience"
                 tag={Link}
-                activestyle={{ fontWeight: "bold" }}
+                activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Experience
@@ -116,7 +116,7 @@ function Header(props) {
                 className="projects"
                 to="/projects"
                 tag={Link}
-                activestyle={{ fontWeight: "bold" }}
+                activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Projects
@@ -127,25 +127,25 @@ function Header(props) {
                 className="cr"
                 to="/contact"
                 tag={Link}
-                activestyle={{ fontWeight: "bold" }}
+                activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Contact and Resume
               </NavLink>
             </li>
-            {/*<li>*/}
-            {/*  <a*/}
-            {/*    className="cr"*/}
-            {/*    target="_blank"*/}
-            {/*    rel="noopener noreferrer"*/}
-            {/*    href="https://studio7.netlify.app/"*/}
-            {/*    tag={Link}*/}
-            {/*    activestyle={{ fontWeight: "bold" }}*/}
-            {/*    style={{ borderRadius: 5, color: theme.text }}*/}
-            {/*  >*/}
-            {/*    Studio7*/}
-            {/*  </a>*/}
-            {/*</li>*/}
+            <li>
+              <a
+                className="cr"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://play.google.com/store/apps/details?id=com.picle.journalify"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Journalify
+              </a>
+            </li>
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

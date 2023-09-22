@@ -50,7 +50,7 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink} rel="noreferrer" target="_blank">
+              <a {...styles} className="general-btn" href={greeting.resumeLink}>
                 See my Resume
               </a>
             </div>
@@ -69,8 +69,8 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link} rel="noreferrer" target="_blank">
-                  StackOverflow Profile
+                <a {...styles} className="general-btn" href={blogSection.link}>
+                  My Medium Profile
                 </a>
               </div>
             </div>
