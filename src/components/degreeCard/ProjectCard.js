@@ -3,8 +3,8 @@ import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
 import { style } from "glamor";
 
-function DegreeCard(props) {
-  const degree = props.degree;
+function ProjectCard(props) {
+  const project = props.project;
   const theme = props.theme;
 
   const style_img = style({
@@ -75,8 +75,8 @@ function DegreeCard(props) {
               maxHeight: "100%",
               transform: "scale(50%, 50%)",
             }}
-            src={require(`../../assests/images/${degree.logo_path}`)}
-            alt={degree.alt_name}
+            src={require(`../../assests/images/${project.logo_path}`)}
+            alt={project.alt_name}
           />
         </div>
       </Flip>
@@ -88,20 +88,20 @@ function DegreeCard(props) {
           >
             <div className="body-header-title">
               <h2 className="card-title" style={{ color: theme.text }}>
-                {degree.title}
+                {project.title}
               </h2>
               <h3 className="card-subtitle" style={{ color: theme.text }}>
-                {degree.subtitle}
+                {project.subtitle}
               </h3>
             </div>
             <div className="body-header-duration">
               <h3 className="duration" style={{ color: theme.text }}>
-                {degree.duration}
+                {project.duration}
               </h3>
             </div>
           </div>
           <div className="body-content">
-            {degree.descriptions.map((sentence) => {
+            {project.descriptions.map((sentence) => {
               return (
                 <p
                   key={sentence}
@@ -113,7 +113,7 @@ function DegreeCard(props) {
               );
             })}
             <a
-              href={degree.website_link}
+              href={project.website_link}
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", textAlign: "center" }}
@@ -137,4 +137,4 @@ function DegreeCard(props) {
   );
 }
 
-export default DegreeCard;
+export default ProjectCard;

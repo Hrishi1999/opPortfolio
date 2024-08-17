@@ -12,15 +12,16 @@ function Educations(props) {
       <div className="educations-header-div">
         <Fade bottom duration={2000} distance="20px">
           <h1 className="educations-header" style={{ color: theme.text }}>
-            Degrees Received
+            _________________________________________
           </h1>
         </Fade>
       </div>
       <div className="educations-body-div">
         {degrees.degrees.map((degree) => {
-          return (
+          return (<div>
+            <br></br>
             <DegreeCard key={degree.title} degree={degree} theme={theme} />
-          );
+        </div>  );
         })}
       </div>
     </div>

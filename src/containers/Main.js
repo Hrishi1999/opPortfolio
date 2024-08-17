@@ -2,10 +2,12 @@ import React from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
+import Proj from "../pages/education/ProjectsComponent";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Faq from "../pages/faq/faqcomponent.js"
 import { settings } from "../portfolio.js";
 
 export default function Main(propss) {
@@ -47,7 +49,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path="/activities"
               render={(props) => (
                 <Education
                   {...props}
@@ -79,13 +81,13 @@ export default function Main(propss) {
             <Route
               path="/projects"
               render={(props) => (
-                <Projects
+                <Proj
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
                 />
               )}
-            />
+            /> 
           </Switch>
         </HashRouter>
       </div>
@@ -128,7 +130,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path="/activities"
               render={(props) => (
                 <Education
                   {...props}
@@ -148,9 +150,19 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/projects"
+              path="/faq"
               render={(props) => (
-                <Projects
+                <Faq
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/projects"             
+              render={(props) => (
+                <Proj
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}

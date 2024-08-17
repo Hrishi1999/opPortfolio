@@ -3,7 +3,7 @@ import ProjectLanguages from "../projectLanguages/ProjectLanguages";
 import "./ProjectCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
-
+//this is an extra one
 export default function ProjectCard({ repo: project, theme }) {
   function openRepoinNewTab(url) {
     var win = window.open(url, "_blank");

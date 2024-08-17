@@ -3,29 +3,29 @@
 // Website related settings
 const settings = {
   isSplash: false, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
 const greeting = {
-  title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "hrishi.p()",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
+  title: "Hi!",
+  title2: "Leyla",
+  logo_name: "leyla :)",
+  nickname: "Leyla",
+  full_name: "Leyla Mammadli",
   subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+    "High schooler. Computer Science Enthusiast. Soda Fanatic.",
   resumeLink:
     "https://drive.google.com/file/d/1kcvW8P65jWZFeKR6Jopf3nrQLA1qJCwn/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+  mail: "mailto:leylamammadli008@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
-  gmail: "hrishipatel99@gmail.com",
+  linkedin: "https://www.linkedin.com/in/leyla-mammadli-b72309276/",
+  gmail: "leylamammadli008@gmail.com",
   gitlab: " ",
   facebook: " ",
   twitter: "https://twitter.com/hrishi_55",
@@ -322,28 +322,122 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Dalhousie University",
-      subtitle: "Masters in Applied Computer Science",
+      title: "New Chess High Score",
+      subtitle: "Rapids, ten minute score on chess.com",
       logo_path: "dal.png",
       alt_name: "DAL",
-      duration: "2022 - 2023",
+      duration: "7/29/2024",
       descriptions: [
-        "⚡ Studied Advanced Software Development Concepts, Data Management & Warehousing",
-        "⚡ Learn Advanced Topics in Cloud Computing, Cloud Architecture along with Serverless Computing",
-        "⚡ Worked on projects on courses like Mobile Computing and Web Technologies.",
+        "⚡ Started really practicing chess during the summer of 2021",
+        "⚡ Was the member of my highschool chess club for all 4 years",
+        "⚡ Have never taken chess lessons- only improve through private practice",
       ],
       website_link: "https://www.dal.ca/",
     },
     {
-      title: "SAL Engineering and Technical Institute",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "Sea(?) Puzzle",
+      subtitle: "5000 piece puzzle",
       logo_path: "sal.png",
       alt_name: "SETI",
-      duration: "2017 - 2021",
+      duration: "",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
+        "⚡ I love doing jigsaw puzzles, this one has more pieces than any other I've done",
+        "⚡ Usually I complete 1000-1500 piece puzzles whenever I have spare time over the course of days",
+        "⚡ This puzzle took a few more days than usual and was very fun",
+      ],
+      website_link: "https://www.sal.edu.in/",
+    },
+    {
+      title: "5k Run",
+      subtitle: "Memorial Day Charity Run",
+      logo_path: "sal.png",
+      alt_name: "SETI",
+      duration: "",
+      descriptions: [
+        "⚡ I've never thought of myself as a runner, as I've never been good at it or enjoyed it",
+        "⚡ I decided to push myself and start training to run. This was my first one",
+        "⚡ I ran the 5k without stopping or slowing down, finishing in 36 minutes, which I was really happy about",
+      ],
+      website_link: "https://www.sal.edu.in/",
+    },
+    {
+      title: "Crosswords",
+      subtitle: "One example of a completed puzzle",
+      logo_path: "sal.png",
+      alt_name: "SETI",
+      duration: "",
+      descriptions: [
+        "⚡ I play all of the NYT word games every day, as well as the USA Today Crossword (expert mode). It's my favorite part of the day",
+        "⚡ I completed this one quicker than usual, usually I complete them in between 5 to 6 minutes ",
+        "⚡ I love puzzles of all kinds, but word puzzles are my favorite",
+      ],
+      website_link: "https://www.sal.edu.in/",
+    }, {
+      title: "Russian Learning",
+      subtitle: "My current streak in Duolingo",
+      logo_path: "sal.png",
+      alt_name: "SETI",
+      duration: "",
+      descriptions: [
+        "⚡ I have been learning Russian through Duolingo since sophomore year",
+        "⚡ I have also been reading Russian children's books to learn ",
+        "",
+      ],
+      website_link: "https://www.sal.edu.in/",
+    },
+  ],
+};
+const projects = {
+  projects: [
+    {
+      title: "Research Paper",
+      subtitle: "Digital Privacy",
+      logo_path: "dal.png",
+      alt_name: "DAL",
+      duration: "7/29/2024",
+      descriptions: [
+        "⚡ Started really practicing chess during the summer of 2021",
+        "⚡ Was the member of my highschool chess club for all 4 years",
+        "⚡ Have never taken chess lessons- only improve through private practice",
+      ],
+      website_link: "https://www.dal.ca/",
+    },
+    {
+      title: "Sea(?) Puzzle",
+      subtitle: "5000 piece puzzle",
+      logo_path: "sal.png",
+      alt_name: "SETI",
+      duration: "",
+      descriptions: [
+        "⚡ I love doing jigsaw puzzles, this one has more pieces than any other I've done",
+        "⚡ Usually I complete 1000-1500 piece puzzles whenever I have spare time over the course of days",
+        "⚡ This puzzle took a few more days than usual and was very fun",
+      ],
+      website_link: "https://www.sal.edu.in/",
+    },
+    {
+      title: "5k Run",
+      subtitle: "Memorial Day Charity Run",
+      logo_path: "sal.png",
+      alt_name: "SETI",
+      duration: "",
+      descriptions: [
+        "⚡ I've never thought of myself as a runner, as I've never been good at it or enjoyed it",
+        "⚡ I decided to push myself and start training to run. This was my first one",
+        "⚡ I ran the 5k without stopping or slowing down, finishing in 36 minutes, which I was really happy about",
+      ],
+      website_link: "https://www.sal.edu.in/",
+    },
+    {
+      title: "Crosswords",
+      subtitle: "One example of a completed puzzle",
+      logo_path: "sal.png",
+      alt_name: "SETI",
+      duration: "",
+      descriptions: [
+        "⚡ I play all of the NYT word games every day, as well as the USA Today Crossword (expert mode). It's my favorite part of the day",
+        "⚡ I completed this one quicker than usual, usually I complete them in between 5 to 6 minutes ",
+        "⚡ I love puzzles of all kinds, but word puzzles are my favorite",
       ],
       website_link: "https://www.sal.edu.in/",
     },
@@ -489,80 +583,39 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I am currently in an internship. I've mostly done projects on my own and I am always looking for more internships.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "IT Developer",
-          company: "Canada Revenue Agency",
-          company_url: "https://www.canada.ca/en/revenue-agency.html",
+          title: "Assistant Manager",
+          company: "Baskin-Robbins",
+          company_url: "https://www.baskinrobbins.com",
           logo_path: "cra.png",
-          duration: "May 2023 - Ongoing",
-          location: "Halifax, Nova Scotia",
+          duration: "March 2023 - Present",
+          location: "Katy, Texas",
           description:
-            "Canada Revenue Agency (CRA) administers tax laws for the Government of Canada and for most provinces and territories, and administers various social and economic benefit and incentive programs delivered through the tax system.",
+            "I am responsible for all daily operations, quality control, and customer service. I lead the hiring and firing process. Most days, I am the highest-ranking employee there.",
           color: "#f10000",
         },
-        {
-          title: "Full Stack Developer",
-          company: "Quicko",
-          company_url: "https://quicko.com/",
-          logo_path: "quicko.jpg",
-          duration: "June 2021 - October 2021",
-          location: "Ahmedabad",
-          description:
-            "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
-          color: "#2962FF",
-        },
+        
       ],
     },
     {
       title: "Internships",
       experiences: [
         {
-          title: "Google Summer of Code",
-          company: "Sugar Labs",
-          company_url: "https://sugarlabs.org/",
-          logo_path: "google_logo.png",
-          duration: "May 2019 - Aug 2019",
-          location: "Work From Home",
-          description:
-            "I worked on the Dashboard project which helps users track their activities while using Sugar OS. I also worked on making a Tamagotchi-like widget for Sugar's Home Screen",
-          color: "#ee3c26",
-        },
-        {
-          title: "Android App Developer Intern",
-          company: "IAS4Sure",
-          company_url: " ",
-          logo_path: "buld.jpg",
-          duration: "December 2019 - February 2020",
-          location: "Work From Home",
-          description:
-            "Internship task was to make a native Android application. ",
-          color: "#0071C5",
-        },
-        {
           title: "Web Developer",
-          company: "Wrighter Writing Solutions",
-          company_url: " ",
-          logo_path: "wrighter.jpg",
-          duration: "August 2020",
-          location: "",
-          description: "Develop a website using PHP and jQuery.",
-          color: "#56A4D3",
-        },
-        {
-          title: "Front-End Developer",
-          company: "VJ TechServe",
-          company_url: " ",
-          logo_path: "vjt.png",
-          duration: "September 2020",
-          location: "",
-          description: "Develop a portfolio website using ReactJS",
-          color: "#800000",
+          company: "A New Start",
+          company_url: "https://www.anewstartfs.org/",
+          logo_path: "google_logo.png",
+          duration: "December 2023 - Present",
+          location: "Remote",
+          description:
+            "I led muliple other student interns on various projects for ANS. This involved both updating pre-existing web pages and creating new pages.",
+          color: "#ee3c26",
         },
       ],
     },
@@ -570,48 +623,28 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Summer of Code Mentor",
-          company: "Sugar Labs / GSoC",
+          title: "Web Development",
+          company: "Grameena Vikas Kendram",
           company_url: "https://sugarlabs.org/",
           logo_path: "google_logo.png",
-          duration: "Summer of 2017 / 18 / 20",
+          duration: "Dec 2023-April 2024",
           location: " ",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "Helped to create website from scratch for a non-profit",
           color: "#4285F4",
         },
         {
-          title: "Google Code-In Mentor",
-          company: "Sugar Labs / GSoC",
+          title: "Web Design Edits",
+          company: "Hav a Sole",
           company_url: "https://sugarlabs.org/",
           logo_path: "google_logo.png",
-          duration: "Winter of 2017 / 18 / 19",
+          duration: "Jan 2024",
           location: " ",
           description:
-            "Day to day resposibilites of this mentorship was to help out children aged 13-17 get started with programming and open-source, review their work and approve them.",
+            "Created new pages to promote events, edited design and formatting, and changed donation page to increase ease of donation.",
           color: "#D83B01",
         },
-        {
-          title: "Board Member at Codeuino",
-          company: " ",
-          company_url: " ",
-          logo_path: "codeuino.jpg",
-          duration: "2018 - 2019",
-          location: " ",
-          description: "Previous Board during early days of Codeuino",
-          color: "#D83B01",
-        },
-        {
-          title: "BluWings Club",
-          company: " ",
-          company_url: " ",
-          logo_path: "b.png",
-          duration: "2018 - On Going",
-          location: " ",
-          description:
-            "Co-Founder and President of the programming club called BluWings. Have organized several workshops which introduced programming and related tools to freshers.",
-          color: "#D83B01",
-        },
+      
       ],
     },
   ],
@@ -629,384 +662,378 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hrishi2.png",
+    profile_image_path: "1.png",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "I'm not on a lot of social media, but I'll try to get back to you as fast as I can. ",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
-    link: "https://medium.com/@hrishipatel99",
-    avatar_image_path: "blogs_image.svg",
-  },
+
 };
 
-const projects = {
-  data: [
-    {
-      name: "CineScope",
-      url: "https://github.com/Hrishi1999/CineScope",
-      description: "An IMDB-like application.",
-      languages: [
-        {
-          name: "React.js",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "TypeScript",
-          iconifyClass: "devicon-typescript",
-        },
-        {
-          name: "Node.js",
-          iconifyClass: "devicon-nodejs",
-        },
-        {
-          name: "Express.js",
-          iconifyClass: "devicon-express",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
-        },
-      ],
-    },
-    {
-      name: "Journalify",
-      url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
-      description:
-        "You personal journaling companion, goals & daily challenges! About 5k+ downloads on Play Store.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      name: "RecipesAPI",
-      url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
-      description: "Get recipes for hundreds and thousands of dishes",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-    },
-    {
-      name: "opPortfolio",
-      url: "https://github.com/Hrishi1999/opPortfolio",
-      description: "(This) A clean and full customizable portfolio template.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      name: "Cab Security System",
-      url: " ",
-      description:
-        "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      name: "Lensinator",
-      url: " ",
-      description:
-        "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      name: "Doorbell.io",
-      url: "https://github.com/Hrishi1999/Doorbell.io",
-      description:
-        "A sound-classifier webapp made with ReactJS + TensorflowJS.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "TensorflowJS",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      name: "Video Summarization",
-      url: "https://github.com/Hrishi1999/Video-Summarization",
-      description:
-        "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-      ],
-    },
-    {
-      name: "Dashboard Activity",
-      url: "https://github.com/Hrishi1999/Dashboard.activity",
-      description:
-        "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      name: "Project Pickle",
-      url: " ",
-      description:
-        "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
-      languages: [
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      name: "Project Health Card",
-      url: "",
-      description:
-        "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
-        },
-      ],
-    },
-    {
-      name: "Food Classifier",
-      url: " ",
-      description:
-        "A food classifier app using tflite which classfier over 50 Indian Dishes.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "Dart",
-          iconifyClass: "logos-dart",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      name: "Image Clustering",
-      url: " ",
-      description:
-        "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      name: "Antivirus",
-      url: " ",
-      description:
-        "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-      ],
-    },
-    {
-      name: "Sugar on Windows",
-      url: " ",
-      description:
-        "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      name: "Object + Face Detection",
-      url: " ",
-      description: "2017 project. Object detection + accurate face detection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      name: "Image Captioning with Visual Attention",
-      url: " ",
-      description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      name: "DalSocial",
-      url: " ",
-      description:
-        "An Android app to meet new people in the university, organize and join events. ",
-      languages: [
-        {
-          name: "Kotlin",
-          iconifyClass: "simple-icons:kotlin",
-          color: "#F18E33",
-        },
-        {
-          name: "Android",
-          iconifyClass: "simple-icons:android",
-          color: "#3DDC84",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      name: "HalifaxFoodie",
-      url: " ",
-      description:
-        "CSCI5410 Project. A multi-client recipe app for Halifax Foodies.",
-      languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "AWS",
-          iconifyClass: "logos-aws",
-        },
-        {
-          name: "Google Cloud",
-          iconifyClass: "logos-google-cloud",
-        },
-      ],
-    },
-  ],
-};
+// const projects = {
+//   data: [
+//     {
+//       name: "CineScope",
+//       url: "https://github.com/Hrishi1999/CineScope",
+//       description: "An IMDB-like application.",
+//       languages: [
+//         {
+//           name: "React.js",
+//           iconifyClass: "logos-react",
+//         },
+//         {
+//           name: "TypeScript",
+//           iconifyClass: "devicon-typescript",
+//         },
+//         {
+//           name: "Node.js",
+//           iconifyClass: "devicon-nodejs",
+//         },
+//         {
+//           name: "Express.js",
+//           iconifyClass: "devicon-express",
+//         },
+//         {
+//           name: "MongoDB",
+//           iconifyClass: "logos-mongodb",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Journalify",
+//       url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
+//       description:
+//         "You personal journaling companion, goals & daily challenges! About 5k+ downloads on Play Store.",
+//       languages: [
+//         {
+//           name: "Flutter",
+//           iconifyClass: "logos-flutter",
+//         },
+//         {
+//           name: "Firebase",
+//           iconifyClass: "logos-firebase",
+//         },
+//       ],
+//     },
+//     {
+//       name: "RecipesAPI",
+//       url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
+//       description: "Get recipes for hundreds and thousands of dishes",
+//       languages: [
+//         {
+//           name: "NodeJS",
+//           iconifyClass: "logos-nodejs",
+//         },
+//         {
+//           name: "JavaScript",
+//           iconifyClass: "logos-javascript",
+//         },
+//       ],
+//     },
+//     {
+//       name: "opPortfolio",
+//       url: "https://github.com/Hrishi1999/opPortfolio",
+//       description: "(This) A clean and full customizable portfolio template.",
+//       languages: [
+//         {
+//           name: "ReactJS",
+//           iconifyClass: "logos-react",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Cab Security System",
+//       url: " ",
+//       description:
+//         "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
+//       languages: [
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//         {
+//           name: "Tensorflow",
+//           iconifyClass: "logos-tensorflow",
+//         },
+//         {
+//           name: "OpenCV",
+//           iconifyClass: "logos-opencv",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Lensinator",
+//       url: " ",
+//       description:
+//         "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
+//       languages: [
+//         {
+//           name: "JavaScript",
+//           iconifyClass: "logos-java",
+//         },
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//         {
+//           name: "Firebase",
+//           iconifyClass: "logos-firebase",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Doorbell.io",
+//       url: "https://github.com/Hrishi1999/Doorbell.io",
+//       description:
+//         "A sound-classifier webapp made with ReactJS + TensorflowJS.",
+//       languages: [
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//         {
+//           name: "ReactJS",
+//           iconifyClass: "logos-react",
+//         },
+//         {
+//           name: "TensorflowJS",
+//           iconifyClass: "logos-tensorflow",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Video Summarization",
+//       url: "https://github.com/Hrishi1999/Video-Summarization",
+//       description:
+//         "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
+//       languages: [
+//         {
+//           name: "JavaScript",
+//           iconifyClass: "logos-javascript",
+//         },
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//         {
+//           name: "ReactJS",
+//           iconifyClass: "logos-react",
+//         },
+//         {
+//           name: "Tensorflow",
+//           iconifyClass: "logos-tensorflow",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Dashboard Activity",
+//       url: "https://github.com/Hrishi1999/Dashboard.activity",
+//       description:
+//         "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
+//       languages: [
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Project Pickle",
+//       url: " ",
+//       description:
+//         "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
+//       languages: [
+//         {
+//           name: "Java",
+//           iconifyClass: "logos-java",
+//         },
+//         {
+//           name: "Firebase",
+//           iconifyClass: "logos-firebase",
+//         },
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Project Health Card",
+//       url: "",
+//       description:
+//         "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
+//       languages: [
+//         {
+//           name: "JavaScript",
+//           iconifyClass: "logos-java",
+//         },
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//         {
+//           name: "Firebase",
+//           iconifyClass: "logos-firebase",
+//         },
+//         {
+//           name: "ReactJS",
+//           iconifyClass: "logos-react",
+//         },
+//         {
+//           name: "MongoDB",
+//           iconifyClass: "logos-mongodb",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Food Classifier",
+//       url: " ",
+//       description:
+//         "A food classifier app using tflite which classfier over 50 Indian Dishes.",
+//       languages: [
+//         {
+//           name: "Flutter",
+//           iconifyClass: "logos-flutter",
+//         },
+//         {
+//           name: "Dart",
+//           iconifyClass: "logos-dart",
+//         },
+//         {
+//           name: "Tensorflow",
+//           iconifyClass: "logos-tensorflow",
+//         },
+//         {
+//           name: "Jupyter Notebook",
+//           iconifyClass: "logos-jupyter",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Image Clustering",
+//       url: " ",
+//       description:
+//         "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
+//       languages: [
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//         {
+//           name: "Jupyter Notebook",
+//           iconifyClass: "logos-jupyter",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Antivirus",
+//       url: " ",
+//       description:
+//         "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
+//       languages: [
+//         {
+//           name: "Visual Basic",
+//           iconifyClass: "logos-dotnet",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Sugar on Windows",
+//       url: " ",
+//       description:
+//         "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
+//       languages: [
+//         {
+//           name: "Visual Basic",
+//           iconifyClass: "logos-dotnet",
+//         },
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Object + Face Detection",
+//       url: " ",
+//       description: "2017 project. Object detection + accurate face detection.",
+//       languages: [
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//         {
+//           name: "Tensorflow",
+//           iconifyClass: "logos-tensorflow",
+//         },
+//         {
+//           name: "OpenCV",
+//           iconifyClass: "logos-opencv",
+//         },
+//       ],
+//     },
+//     {
+//       name: "Image Captioning with Visual Attention",
+//       url: " ",
+//       description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
+//       languages: [
+//         {
+//           name: "Python",
+//           iconifyClass: "logos-python",
+//         },
+//         {
+//           name: "Tensorflow",
+//           iconifyClass: "logos-tensorflow",
+//         },
+//         {
+//           name: "Jupyter Notebook",
+//           iconifyClass: "logos-jupyter",
+//         },
+//       ],
+//     },
+//     {
+//       name: "DalSocial",
+//       url: " ",
+//       description:
+//         "An Android app to meet new people in the university, organize and join events. ",
+//       languages: [
+//         {
+//           name: "Kotlin",
+//           iconifyClass: "simple-icons:kotlin",
+//           color: "#F18E33",
+//         },
+//         {
+//           name: "Android",
+//           iconifyClass: "simple-icons:android",
+//           color: "#3DDC84",
+//         },
+//         {
+//           name: "Firebase",
+//           iconifyClass: "logos-firebase",
+//         },
+//       ],
+//     },
+//     {
+//       name: "HalifaxFoodie",
+//       url: " ",
+//       description:
+//         "CSCI5410 Project. A multi-client recipe app for Halifax Foodies.",
+//       languages: [
+//         {
+//           name: "ReactJS",
+//           iconifyClass: "logos-react",
+//         },
+//         {
+//           name: "AWS",
+//           iconifyClass: "logos-aws",
+//         },
+//         {
+//           name: "Google Cloud",
+//           iconifyClass: "logos-google-cloud",
+//         },
+//       ],
+//     },
+//   ],
+// };
 
 export {
   settings,

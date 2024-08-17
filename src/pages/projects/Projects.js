@@ -1,71 +1,33 @@
 import React from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import "../../containers/education/Educations.css";
+import DegreeCard from "../../components/degreeCard/DegreeCard.js";
+import ProjectCard from "../../components/degreeCard/DegreeCard.js";
+import { projects } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { projectsHeader, projects, socialMediaLinks } from "../../portfolio.js";
-import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
-import { style } from "glamor";
 
 function Projects(props) {
   const theme = props.theme;
 
-  const styles = style({
-    backgroundColor: `${theme.accentBright}`,
-    ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
-    },
-  });
-
   return (
-    <div className="projects-main">
-      <Header theme={theme} setTheme={props.setTheme} />
-      <div className="basic-projects">
-        <Fade bottom duration={2000} distance="40px">
-          <div className="projects-heading-div">
-            <div className="projects-heading-img-div">
-              <ProjectsImg theme={theme} />
-            </div>
-            <div className="projects-heading-text-div">
-              <h1
-                className="projects-heading-text"
-                style={{ color: theme.text }}
-              >
-                {projectsHeader.title}
-              </h1>
-              <p
-                className="projects-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {projectsHeader["description"]}
-              </p>
-            </div>
-          </div>
+    <div className="main" id="educations">
+      <div className="educations-header-div">
+        <Fade bottom duration={2000} distance="20px">
+          <h1 className="educations-header" style={{ color: theme.text }}>
+            _________________________________________
+          </h1>
         </Fade>
       </div>
-      <div className="repo-cards-div-main">
-        {projects.data.map((repo) => {
-          return <ProjectCard repo={repo} theme={theme} />;
+      <div className="educations-body-div">
+        {projects.projects.map((degree) => {
+          return (<div>
+            <br></br>
+            <ProjectCard key={projects.title} degree={degree} theme={theme} />
+        </div>  );
         })}
       </div>
-      <br />
-      <br />
-      <br />
-      <a
-        {...styles}
-        className="general-btn"
-        href={socialMediaLinks.github}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        More Projects (Github)
-      </a>
-      <br />
-      <br />
-      <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
 }
 
 export default Projects;
+

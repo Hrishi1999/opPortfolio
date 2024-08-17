@@ -1,18 +1,18 @@
 import React from "react";
 import Header from "../../components/header/Header";
-import Greeting from "../../containers/greeting/Greeting";
-import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
-import "./home.css"
-function Home(props) {
+import Faqs from "../faq/faq.js"
+import { Fade } from "react-reveal";
+//import two from "./2.avif"
+function faqcomponent(props) {
+  const theme = props.theme;
   return (
-    <div>
+    <div className="education-main">
       <Header theme={props.theme} setTheme={props.setTheme} />
-      <Greeting theme={props.theme} />
-      <Skills theme={props.theme} />
+     <Faqs/>
       <Footer theme={props.theme} />
     </div>
   );
 }
 
-export default Home;
+export default faqcomponent;
