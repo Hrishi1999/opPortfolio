@@ -14,7 +14,8 @@ const greeting = {
   logo_name: "leyla :)",
   nickname: "Leyla",
   full_name: "Leyla Mammadli",
-  subTitle: "High schooler. Computer Science Enthusiast. Soda Fanatic.",
+  subTitle:
+    "High schooler. Computer Science Enthusiast. Soda Fanatic.",
   resumeLink:
     "https://drive.google.com/file/d/1kcvW8P65jWZFeKR6Jopf3nrQLA1qJCwn/view?usp=sharing",
   mail: "mailto:leylamammadli008@gmail.com",
@@ -321,10 +322,10 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "New Chess High Score- 1400",
+      title: "New Chess High Score",
       subtitle: "Rapids, ten minute score on chess.com",
-      logo_path: "chess.jpeg",
-      alt_name: "CHESS",
+      logo_path: "dal.png",
+      alt_name: "DAL",
       duration: "7/29/2024",
       descriptions: [
         "⚡ Started really practicing chess during the summer of 2021",
@@ -371,8 +372,7 @@ const degrees = {
         "⚡ I love puzzles of all kinds, but word puzzles are my favorite",
       ],
       website_link: "https://www.sal.edu.in/",
-    },
-    {
+    }, {
       title: "Russian Learning",
       subtitle: "My current streak in Duolingo",
       logo_path: "duo.svg",
@@ -600,6 +600,7 @@ const experience = {
             "I am responsible for all daily operations, quality control, and customer service. I lead the hiring and firing process. Most days, I am the highest-ranking employee there.",
           color: "#f10000",
         },
+        
       ],
     },
     {
@@ -628,7 +629,8 @@ const experience = {
           logo_path: "google_logo.png",
           duration: "Dec 2023-April 2024",
           location: " ",
-          description: "Helped to create website from scratch for a non-profit",
+          description:
+            "Helped to create website from scratch for a non-profit",
           color: "#4285F4",
         },
         {
@@ -642,6 +644,7 @@ const experience = {
             "Created new pages to promote events, edited design and formatting, and changed donation page to increase ease of donation.",
           color: "#D83B01",
         },
+      
       ],
     },
   ],
@@ -663,6 +666,7 @@ const contactPageData = {
     description:
       "I'm not on a lot of social media, but I'll try to get back to you as fast as I can. ",
   },
+
 };
 
 // const projects = {
