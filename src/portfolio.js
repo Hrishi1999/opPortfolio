@@ -336,7 +336,7 @@ const degrees = {
     {
       title: "Sea(?) Puzzle",
       subtitle: "5000 piece puzzle",
-      logo_path: "sal.png",
+      logo_path: "puzzle.svg",
       alt_name: "SETI",
       duration: "",
       descriptions: [
@@ -362,7 +362,7 @@ const degrees = {
     {
       title: "Crosswords",
       subtitle: "One example of a completed puzzle",
-      logo_path: "sal.png",
+      logo_path: "cross.png",
       alt_name: "SETI",
       duration: "",
       descriptions: [
@@ -375,7 +375,7 @@ const degrees = {
     {
       title: "Russian Learning",
       subtitle: "My current streak in Duolingo",
-      logo_path: "sal.png",
+      logo_path: "duo.svg",
       alt_name: "SETI",
       duration: "",
       descriptions: [
@@ -405,7 +405,7 @@ const projects = {
     {
       title: "Sea(?) Puzzle",
       subtitle: "5000 piece puzzle",
-      logo_path: "sal.png",
+      logo_path: "puzzle.svg",
       alt_name: "SETI",
       duration: "",
       descriptions: [
@@ -431,7 +431,7 @@ const projects = {
     {
       title: "Crosswords",
       subtitle: "One example of a completed puzzle",
-      logo_path: "sal.png",
+      logo_path: "cross.png",
       alt_name: "SETI",
       duration: "",
       descriptions: [
@@ -445,137 +445,137 @@ const projects = {
 };
 
 const certifications = {
-  certifications: [
-    {
-      title: "AWS Developer Associate",
-      subtitle: "Amazon Web Services",
-      logo_path: "aws.png",
-      certificate_link:
-        "https://www.credly.com/badges/b12fbece-07f3-47f5-9dda-cd56f49e250d/public_url",
-      alt_name: "AWS",
-      color_code: "#ffc475",
-    },
-    {
-      title: "AWS Certified Cloud Practioner",
-      subtitle: "Amazon Web Services",
-      logo_path: "aws.png",
-      certificate_link:
-        "https://www.credly.com/badges/8b2db191-702d-427c-91aa-0f926be447a6/public_url",
-      alt_name: "AWS",
-      color_code: "#ffc475",
-    },
-    {
-      title: "Google Summer of Code 2019",
-      subtitle: "Google / Sugar Labs",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffc475",
-    },
-    {
-      title: "Google Code-In Student",
-      subtitle: "2014-2017",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#1e70c1",
-    },
-    {
-      title: "Google Summer of Code Mentor",
-      subtitle: "2017 / 2018 / 2020",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffbfae",
-    },
-    {
-      title: "Google Code-In Mentor",
-      subtitle: "2017 / 2018 / 2019",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#b190b0",
-    },
-    {
-      title: "Deep Learning Specialization",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
-      alt_name: "deeplearning.ai",
-      color_code: "#47A048",
-    },
-    {
-      title: "Sequence Models",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
-      alt_name: "deeplearning.ai",
-      color_code: "#F6B808",
-    },
-    {
-      title: "Convolutional Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
-      alt_name: "deeplearning.ai",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Structuring Machine Learning Projects",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
-      alt_name: "deeplearning.ai",
-      color_code: "#E2405F",
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Neural Networks and Deep Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
-      alt_name: "Google",
-      color_code: "#7A7A7A",
-    },
-    {
-      title: "Improving Deep Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Android Developer Nanodegree",
-      subtitle: "Part of Google India Scholarship Program",
-      logo_path: "100.png",
-      certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
-      alt_name: "Google",
-      color_code: "#C5E2EE",
-    },
-    {
-      title: "InOut 4.0 Winner #2",
-      subtitle: "2017",
-      logo_path: "ino.png",
-      certificate_link: " ",
-      alt_name: "InOut",
-      color_code: "#fffbf3",
-    },
-  ],
+  // certifications: [
+  //   {
+  //     title: "AWS Developer Associate",
+  //     subtitle: "Amazon Web Services",
+  //     logo_path: "aws.png",
+  //     certificate_link:
+  //       "https://www.credly.com/badges/b12fbece-07f3-47f5-9dda-cd56f49e250d/public_url",
+  //     alt_name: "AWS",
+  //     color_code: "#ffc475",
+  //   },
+  //   {
+  //     title: "AWS Certified Cloud Practioner",
+  //     subtitle: "Amazon Web Services",
+  //     logo_path: "aws.png",
+  //     certificate_link:
+  //       "https://www.credly.com/badges/8b2db191-702d-427c-91aa-0f926be447a6/public_url",
+  //     alt_name: "AWS",
+  //     color_code: "#ffc475",
+  //   },
+  //   {
+  //     title: "Google Summer of Code 2019",
+  //     subtitle: "Google / Sugar Labs",
+  //     logo_path: "google_logo.png",
+  //     certificate_link: " ",
+  //     alt_name: "Google",
+  //     color_code: "#ffc475",
+  //   },
+  //   {
+  //     title: "Google Code-In Student",
+  //     subtitle: "2014-2017",
+  //     logo_path: "google_logo.png",
+  //     certificate_link: " ",
+  //     alt_name: "Google",
+  //     color_code: "#1e70c1",
+  //   },
+  //   {
+  //     title: "Google Summer of Code Mentor",
+  //     subtitle: "2017 / 2018 / 2020",
+  //     logo_path: "google_logo.png",
+  //     certificate_link: " ",
+  //     alt_name: "Google",
+  //     color_code: "#ffbfae",
+  //   },
+  //   {
+  //     title: "Google Code-In Mentor",
+  //     subtitle: "2017 / 2018 / 2019",
+  //     logo_path: "google_logo.png",
+  //     certificate_link: " ",
+  //     alt_name: "Google",
+  //     color_code: "#b190b0",
+  //   },
+  //   {
+  //     title: "Deep Learning Specialization",
+  //     subtitle: "deeplearning.ai",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link:
+  //       "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
+  //     alt_name: "deeplearning.ai",
+  //     color_code: "#47A048",
+  //   },
+  //   {
+  //     title: "Sequence Models",
+  //     subtitle: "deeplearning.ai",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
+  //     alt_name: "deeplearning.ai",
+  //     color_code: "#F6B808",
+  //   },
+  //   {
+  //     title: "Convolutional Neural Networks",
+  //     subtitle: "deeplearning.ai",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
+  //     alt_name: "deeplearning.ai",
+  //     color_code: "#2AAFED",
+  //   },
+  //   {
+  //     title: "Structuring Machine Learning Projects",
+  //     subtitle: "deeplearning.ai",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
+  //     alt_name: "deeplearning.ai",
+  //     color_code: "#E2405F",
+  //   },
+  //   {
+  //     title: "Machine Learning",
+  //     subtitle: "deeplearning.ai",
+  //     logo_path: "stanford_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
+  //     alt_name: "Stanford University",
+  //     color_code: "#8C151599",
+  //   },
+  //   {
+  //     title: "Neural Networks and Deep Learning",
+  //     subtitle: "deeplearning.ai",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
+  //     alt_name: "Google",
+  //     color_code: "#7A7A7A",
+  //   },
+  //   {
+  //     title: "Improving Deep Neural Networks",
+  //     subtitle: "deeplearning.ai",
+  //     logo_path: "deeplearning_ai_logo.png",
+  //     certificate_link:
+  //       "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
+  //     alt_name: "Google",
+  //     color_code: "#0C9D5899",
+  //   },
+  //   {
+  //     title: "Android Developer Nanodegree",
+  //     subtitle: "Part of Google India Scholarship Program",
+  //     logo_path: "100.png",
+  //     certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
+  //     alt_name: "Google",
+  //     color_code: "#C5E2EE",
+  //   },
+  //   {
+  //     title: "InOut 4.0 Winner #2",
+  //     subtitle: "2017",
+  //     logo_path: "ino.png",
+  //     certificate_link: " ",
+  //     alt_name: "InOut",
+  //     color_code: "#fffbf3",
+  //   },
+  // ],
 };
 
 // Experience Page
@@ -593,7 +593,7 @@ const experience = {
           title: "Assistant Manager",
           company: "Baskin-Robbins",
           company_url: "https://www.baskinrobbins.com",
-          logo_path: "cra.png",
+          logo_path: "br.png",
           duration: "March 2023 - Present",
           location: "Katy, Texas",
           description:
