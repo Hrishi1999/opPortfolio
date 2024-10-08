@@ -2,7 +2,7 @@
   "private": true,
   "name": "opportfolio",
   "version": "1.2.0",
-  "homepage": "http://hrishi.tech/",
+  "homepage": "https://durakgame.github.io/leylas-portfolio5/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
