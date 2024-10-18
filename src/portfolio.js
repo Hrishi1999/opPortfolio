@@ -10,26 +10,25 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "hrishi.p()",
+  title2: "Gokul",
+  logo_name: "Gokul",
   nickname: "hrishi1999 / picleric",
   full_name: "Hrishi Patel",
   subTitle:
     "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
-  resumeLink:
-    "https://drive.google.com/file/d/1kcvW8P65jWZFeKR6Jopf3nrQLA1qJCwn/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+  resumeLink: "",
+  mail: "mailto:gokul142003@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
+  github: "https://github.com/Gokul-77",
+  linkedin: "https://www.linkedin.com/in/gokul-selvaraj-a3b65a213",
   gmail: "hrishipatel99@gmail.com",
   gitlab: " ",
   facebook: " ",
-  twitter: "https://twitter.com/hrishi_55",
-  instagram: "https://www.instagram.com/picleric/",
+  twitter: "",
+  instagram: "",
 };
 
 const skills = {
@@ -38,9 +37,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS and Angular",
-        "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Backend development using NodeJS, ExpressJS and Flask",
+        "⚡ Building responsive website front end using ReactJS ",
+        "⚡ Developing mobile applications using Flutter",
+        "⚡ Backend development using NodeJS, Djang and Flask",
       ],
       softwareSkills: [
         {
@@ -65,23 +64,17 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
+
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "logos-java",
           style: {
             color: "#f89820",
           },
         },
         {
-          skillName: "Kotlin",
-          fontAwesomeClassname: "simple-icons:kotlin",
+          skillName: "Python",
+          fontAwesomeClassname: "logos-python",
           style: {
             color: "#5c79df",
           },
@@ -93,42 +86,15 @@ const skills = {
             color: "#29B0EE",
           },
         },
-        {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#00A7D0",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
+
         {
           skillName: "C",
           fontAwesomeClassname: "simple-icons:c",
           style: {
-            color: "#E94E32",
+            color: "#029FCE",
           },
         },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -147,25 +113,12 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos-node-js",
           style: {
             color: "#339933",
           },
         },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
-        },
+
         {
           skillName: "Android App Development",
           fontAwesomeClassname: "simple-icons:android",
@@ -189,14 +142,6 @@ const skills = {
         },
 
         {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-
-        {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
@@ -210,26 +155,11 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Certified AWS Developer Associate and Cloud Practioner",
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing web apps on GCP and AWS",
+        "⚡ Experience hosting and managing web apps",
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
         {
           skillName: "Netlify",
           fontAwesomeClassname: "simple-icons:netlify",
@@ -237,32 +167,12 @@ const skills = {
             color: "#38AFBB",
           },
         },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
+
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
           style: {
             color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
           },
         },
       ],
@@ -272,8 +182,7 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
+        "⚡ Experience with real-time Projects",
       ],
       softwareSkills: [
         {
@@ -299,6 +208,10 @@ const skills = {
           },
         },
         {
+          skillName: "numpy",
+          fontAwesomeClassname: "simple-icons:numpy",
+        },
+        {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
           style: {
@@ -322,30 +235,17 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Dalhousie University",
-      subtitle: "Masters in Applied Computer Science",
-      logo_path: "dal.png",
+      title: "Dhanalakshmi Srinivasan Engineering College",
+      subtitle: "B.E - Computer Science and Engineering",
+      logo_path: "au.png",
       alt_name: "DAL",
-      duration: "2022 - 2023",
+      duration: "2020 - 2024",
       descriptions: [
         "⚡ Studied Advanced Software Development Concepts, Data Management & Warehousing",
         "⚡ Learn Advanced Topics in Cloud Computing, Cloud Architecture along with Serverless Computing",
         "⚡ Worked on projects on courses like Mobile Computing and Web Technologies.",
       ],
-      website_link: "https://www.dal.ca/",
-    },
-    {
-      title: "SAL Engineering and Technical Institute",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "sal.png",
-      alt_name: "SETI",
-      duration: "2017 - 2021",
-      descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
-      ],
-      website_link: "https://www.sal.edu.in/",
+      website_link: "https://www.dsengg.ac.in/",
     },
   ],
 };
@@ -621,7 +521,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Machine Learing Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -637,7 +537,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
-    link: "https://medium.com/@hrishipatel99",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -671,22 +571,7 @@ const projects = {
         },
       ],
     },
-    {
-      name: "Journalify",
-      url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
-      description:
-        "You personal journaling companion, goals & daily challenges! About 5k+ downloads on Play Store.",
-      languages: [
-        {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
+
     {
       name: "RecipesAPI",
       url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
