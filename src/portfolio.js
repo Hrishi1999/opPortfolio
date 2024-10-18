@@ -254,13 +254,13 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "AWS Developer Associate",
-      subtitle: "Amazon Web Services",
-      logo_path: "aws.png",
+      title: "Python pro Bootcamp",
+      subtitle: "Udemy",
+      logo_path: "udemy.png",
       certificate_link:
-        "https://www.credly.com/badges/b12fbece-07f3-47f5-9dda-cd56f49e250d/public_url",
+        "https://www.udemy.com/certificate/UC-8f9b35f3-5734-44db-bd7c-e729f4c07d62/",
       alt_name: "AWS",
-      color_code: "#ffc475",
+      color_code: "purple",
     },
     {
       title: "AWS Certified Cloud Practioner",
