@@ -236,7 +236,7 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Dhanalakshmi Srinivasan Engineering College",
+      title: "Dhanalaksh Srinivasan Engineering College",
       subtitle: "B.E - Computer Science and Engineering",
       logo_path: "au.png",
       alt_name: "DAL",
