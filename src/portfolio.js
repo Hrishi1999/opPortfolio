@@ -13,10 +13,11 @@ const greeting = {
   title2: "Gokul",
   logo_name: "Gokul",
   nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
+  full_name: "Gokul",
   subTitle:
     "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
-  resumeLink: "",
+  resumeLink:
+    "https://drive.google.com/file/d/1lkmf86nysRiw3rTCFIDIxSpCWtclzA0h/view?usp=sharing",
   mail: "mailto:gokul142003@gmail.com",
 };
 
@@ -24,7 +25,7 @@ const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/Gokul-77",
   linkedin: "https://www.linkedin.com/in/gokul-selvaraj-a3b65a213",
-  gmail: "hrishipatel99@gmail.com",
+  gmail: "gokul142003@gmail.com",
   gitlab: " ",
   facebook: " ",
   twitter: "",
