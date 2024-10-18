@@ -29,7 +29,7 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in hackathons and other tech-related
+                I actively working in own projects and other tech-related
                 activities. Below are some of my major certifications.
               </p>
             </div>
