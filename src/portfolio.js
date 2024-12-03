@@ -677,6 +677,38 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      name: "Apifi",
+      url: "http://apifi.io/",
+      description:
+        "A marketplace for APIs. Leading a team of 4 developers, implemented SDK-generation tools, core services like rate-limiter and console.",
+      languages: [
+        {
+          name: "AWS",
+          iconifyClass: "devicon-aws",
+        },
+        {
+          name: "Golang",
+          iconifyClass: "devicon-go",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "devicon-typescript",
+        },
+        {
+          name: "Next.js",
+          iconifyClass: "devicon-nextjs",
+        },
+        {
+          name: "DynamoDB",
+          iconifyClass: "devicon-dynamodb",
+        },
+        {
+          name: "Redis",
+          iconifyClass: "devicon-redis",
+        },
+      ],
+    },
+    {
       name: "CineScope",
       url: "https://github.com/Hrishi1999/CineScope",
       description: "An IMDB-like application.",

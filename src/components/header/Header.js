@@ -138,12 +138,12 @@ function Header(props) {
                 className="cr"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://play.google.com/store/apps/details?id=com.picle.journalify"
+                href="https://apifi.io"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Journalify
+                Apifi
               </a>
             </li>
             <button {...styles} onClick={changeTheme}>
