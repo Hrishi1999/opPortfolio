@@ -496,15 +496,31 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "IT Developer",
+          title: "CS2 - IT Developer/Analyst",
           company: "Canada Revenue Agency",
           company_url: "https://www.canada.ca/en/revenue-agency.html",
           logo_path: "cra.png",
-          duration: "May 2023 - Ongoing",
+          duration: "May 2023 - Present",
           location: "Halifax, Nova Scotia",
           description:
-            "Canada Revenue Agency (CRA) administers tax laws for the Government of Canada and for most provinces and territories, and administers various social and economic benefit and incentive programs delivered through the tax system.",
+            "• Led development to concurrently process tax returns for multiple fiscal years, reducing system processing time by 35%\n" +
+            "• Implemented new tax return types and led development of T3 returns, resolving 25+ critical production issues\n" +
+            "• Collaborated across 5+ cross-functional teams to integrate tax law changes, ensuring 100% compliance\n" +
+            "• Mentored 4 team members and led code review sessions, enhancing team knowledge sharing",
           color: "#f10000",
+        },
+        {
+          title: "Full Stack Developer - Part-time Contract",
+          company: "SpatialCut",
+          company_url: "",
+          logo_path: "spatialcut.png",
+          duration: "April 2024 - Present",
+          location: "Remote",
+          description:
+            "• Architected AWS cloud infrastructure, reducing complexity by 40% and improving scalability\n" +
+            "• Developed microservices using AWS SageMaker, ECS, and EC2 Mac Instances for Apple Vision Pro platform\n" +
+            "• Optimized video processing pipeline, reducing rendering time by 25%",
+          color: "#2962FF",
         },
         {
           title: "Full Stack Developer",
@@ -514,8 +530,24 @@ const experience = {
           duration: "June 2021 - October 2021",
           location: "Ahmedabad",
           description:
-            "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
+            "• Developed PWA with Flutter serving 50,000+ customers\n" +
+            "• Integrated 5+ brokerages including Zerodha, Upstox, Groww\n" +
+            "• Implemented backend APIs using Node.js and Spring Boot, reducing operational costs by 20%\n" +
+            "• Created responsive frontend using Angular and Vue.js",
           color: "#2962FF",
+        },
+        {
+          title: "Python Developer",
+          company: "Google Summer of Code - Sugar Labs",
+          company_url: "https://sugarlabs.org/",
+          logo_path: "google_logo.png",
+          duration: "May 2019 - August 2019",
+          location: "Remote",
+          description:
+            "• Implemented Dashboard functionality using Python and GTK3 for Sugar OS\n" +
+            "• Created interactive widget for Sugar Desktop environment\n" +
+            "• Contributed to Python 2 to 3 migration and Music Blocks features",
+          color: "#ee3c26",
         },
       ],
     },
